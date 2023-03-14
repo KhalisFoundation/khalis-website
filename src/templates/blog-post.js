@@ -22,9 +22,9 @@ export const BlogPostTemplate = ({
   return (
     <section className="section">
       {helmet || ""}
-      <div className="container">
+      <div className="container" style={{ maxWidth: "640px" }}>
         <div>
-          <h1 className="title has-text-primary post-heading">{title}</h1>
+          <h1 className="is-size-1 has-text-dark post-heading pt-3">{title}</h1>
           {featuredimage ? (
             <div className="featured-thumbnail pb-5">
               <PreviewCompatibleImage

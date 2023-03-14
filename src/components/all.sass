@@ -168,6 +168,8 @@ $menu-label-color: $white-ter
 
 // responsiveness
 +tablet-only
+  .title
+    font-size: 3rem !important
   .blog-list-item .featured-thumbnail
     max-width: 100%
     margin: 0 0 1em
@@ -193,6 +195,8 @@ $menu-label-color: $white-ter
     background: #2b2523 !important
 
 +mobile
+  .title 
+    font-size: 3rem !important
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
@@ -259,6 +263,8 @@ $link: $blue
 .title 
   font-size: 5rem !important
   font-weight: 700 !important
+.title 
+  font-size: 5rem !important
 
 .date-text
   font-size: 16px
@@ -374,7 +380,7 @@ footer .body-text
 
 
 .hero.is-info 
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://unsplash.it/1200/900?random) no-repeat center center scroll
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/sikh-reading-gurbani-on-mobile.webp) no-repeat center center scroll
   background-size: cover
 
 +desktop
@@ -390,7 +396,7 @@ footer .body-text
   display: flex
   flex-direction: row
   align-items: center
-  padding: 40px 0
+  padding: 4px 0
 .navbar-item 
   padding: 0rem 0.8rem !important
 
@@ -414,8 +420,8 @@ footer .body-text
   position: absolute
   top: 50%
   left: 50%
-  width: fit-content
-  padding: 2px
+  width: -webkit-fill-available
+  padding: 0px
   transform: translate(-50%, -50%)
   -ms-transform: translate(-50%, -50%)
   text-align: center
@@ -433,7 +439,7 @@ footer .body-text
 .middlemiddle 
   background: $primary
   color: white
-  font-weight: 400
+  font-weight: 700
   text-align: center
   font-size: 15px
-  padding: 60px 20px
+  padding: 58px 20px

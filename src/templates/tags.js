@@ -48,7 +48,7 @@ const  TagRoute = (props)=> {
           </header>
           <p>
             <Link
-              className="title has-text-primary heading1 "
+              className="is-size-1 has-text-dark heading1 "
               to={post.node.fields.slug}
             >
               {post.node.frontmatter.title}
@@ -74,8 +74,8 @@ const  TagRoute = (props)=> {
       <Layout>
         <section className="section section--gradient">
           <Helmet title={`${tag} | ${title}`} />
-          <div className="container ">
-            <p className="has-text-weight-bold is-size-3 has-text-centered">
+          <div className="container" style={{ maxWidth: "640px" }}>
+            <p className="has-text-weight-bold is-size-3 has-text-centered pt-3">
               {tagHeader}
             </p>
             <ul className="taglist">{postLinks}</ul>

@@ -6,36 +6,30 @@ import Layout from "../components/Layout";
 // import Features from "../components/Features";
 // import BlogRoll from "../components/BlogRoll";
 // import FullWidthImage from "../components/FullWidthImage";
-import { StaticImage } from "gatsby-plugin-image"
-import books from './../img/books.svg'
-import apps from './../img/apps.svg'
-import sites from './../img/sites.svg'
-import BaniDB from './../img/banidb-sq.avif'
+import { StaticImage } from "gatsby-plugin-image";
+import books from "./../img/books.svg";
+import apps from "./../img/apps.svg";
+import sites from "./../img/sites.svg";
+import BaniDB from "./../img/banidb-sq.avif";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-// eslint-disable-next-line 
-export const IndexPageTemplate = ({
-  title,
-  heading,
-
-}) => {
-
+import { Carousel } from "react-responsive-carousel";
+// eslint-disable-next-line
+export const IndexPageTemplate = ({ title, heading }) => {
   return (
     <div className="section section--gradient">
       <section className="hero is-info is-fullheight">
-
-
         <div className="hero-body">
           <div className="container has-text-centered">
             <div className=" ">
               <h1 className="title ">
                 OVER 20 YEARS OF SHARING SIKHI THROUGH TECHNOLOGY
               </h1>
-              <button className="button is-white is-outlined  is-large">LEARN MORE</button>
+              <button className="button is-white is-outlined  is-large">
+                LEARN MORE
+              </button>
             </div>
           </div>
         </div>
-
       </section>
       {/* <section>
         <Carousel>
@@ -50,95 +44,157 @@ export const IndexPageTemplate = ({
           </div>
         </Carousel>
       </section> */}
-      <section className="hero has-background-light">
-
+      <section className="hero has-background-light" id="about">
         <div className="container">
-          <div className="columns features">
-            <div className="column is-4">
+          <div className="columns features py-3 ">
+            <div className="column is-4  mx-2">
               <div className="card is-shady has-background-primary">
-                <div className="card-image" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                  <img src={apps} alt="Placeholder image"
-                    width='130px'
+                <div
+                  className="card-image"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <img
+                    src={apps}
+                    alt="Placeholder image"
+                    width="130px"
                     height="130px"
-                    className="modal-button" />
+                    className="modal-button"
+                  />
                 </div>
-                <div className="card-content p-6" >
-                  <div className="content" >
+                <div className="card-content px-5 py-3">
+                  <div className="content">
                     <h4 className="is-size-3 has-text-light"> Download Apps</h4>
-                    <p className="is-size-5	has-text-light">Khalis publishes multi-platform apps for Sikhs all around the world to better connect with Gurbani.</p>
-                    <Link href="/apps" className="mr-3	button is-small is-black" >VIEW APPS</Link>
+                    <p className="is-size-5	has-text-light">
+                      Khalis publishes multi-platform apps for Sikhs all around
+                      the world to better connect with Gurbani.
+                    </p>
+                    <Link href="/apps" className="mr-3	button is-small is-black">
+                      VIEW APPS
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="column is-4">
+            <div className="column is-4 mx-2">
               <div className="card is-shady has-background-primary">
-                <div className="card-image" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                  <img src={books} alt="Placeholder image"
-                    width='130px'
+                <div
+                  className="card-image"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <img
+                    src={books}
+                    alt="Placeholder image"
+                    width="130px"
                     height="130px"
-                    className="modal-button" />
+                    className="modal-button"
+                  />
                 </div>
-                <div className="card-content p-6">
-                  <div className="content " >
-                    <h4 className="is-size-3 has-text-light">Read Our Books                    </h4>
-                    <p className="is-size-5	has-text-light">In addition to Sikh technology, Khalis also publishes unique Sikhi books beloved by children.</p>
-                    <Link href="https://shop.khal.is/" className="button is-small is-black" >SHOP BOOKS</Link>
+                <div className="card-content px-5 py-3">
+                  <div className="content ">
+                    <h4 className="is-size-3 has-text-light">
+                      Read Our Books{" "}
+                    </h4>
+                    <p className="is-size-5	has-text-light">
+                      In addition to Sikh technology, Khalis also publishes
+                      unique Sikhi books beloved by children.
+                    </p>
+                    <Link
+                      href="https://shop.khal.is/"
+                      className="button is-small is-black"
+                    >
+                      SHOP BOOKS
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="column is-4 " >
+            <div className="column is-4 mx-2">
               <div className="card is-shady has-background-primary">
-                <div className="card-image" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                  <img src={sites} alt="Placeholder image"
-                    width='130px'
+                <div
+                  className="card-image"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <img
+                    src={sites}
+                    alt="Placeholder image"
+                    width="130px"
                     height="130px"
-                    className="modal-button" />
+                    className="modal-button"
+                  />
                 </div>
-                <div className="card-content p-6">
-                  <div className="content" >
-                    <h4 className="is-size-3 has-text-light">Visit The Websites</h4>
-                    <p className="is-size-5	has-text-light">  Khalis also runs a number of successful websites that inspire Sikh values in various ways.
+                <div className="card-content px-5 py-3">
+                  <div className="content">
+                    <h4 className="is-size-3 has-text-light">
+                      Visit The Websites
+                    </h4>
+                    <p className="is-size-5	has-text-light">
+                      {" "}
+                      Khalis also runs a number of successful websites that
+                      inspire Sikh values in various ways.
                     </p>
                     {/* VIEW SITES */}
-                    <Link href="/sites/" className="button is-small  is-black" >VIEW SITES</Link>
+                    <Link href="/sites/" className="button is-small  is-black">
+                      VIEW SITES
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
-      <section className="hero  has-background-info ">
+      <section className="hero  has-background-info " id="spotlight">
         <div className="hero-body">
           <div className="container px-1">
             <div className="columns  is-vcentered">
-              <div data-aos="fade-left" className="column is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-4-desktop is-offset-1-desktop is-4-widescreen is-offset-1-widescreen is-4-fullhd is-offset-1-fullhd aos-init aos-animate">
+              <div
+                data-aos="fade-left"
+                className="column is-half is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-4-desktop is-offset-1-desktop is-4-widescreen is-offset-1-widescreen is-4-fullhd is-offset-1-fullhd aos-init aos-animate"
+              >
                 {/* <figure className="image is-square"> */}
-                <StaticImage src='./../img/banidb-sq.avif' />
+                <StaticImage src="./../img/banidb-sq.avif" />
                 {/* </figure> */}
               </div>
-              <div data-aos="fade-down" className="column is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-5-desktop is-offset-1-desktop is-5-widescreen is-offset-1-widescreen is-5-fullhd is-offset-1-fullhd aos-init aos-animate">
-                <h1 className="titled title is-1 mb-6 has-text-light">
+              <div
+                data-aos="fade-down"
+                className="column is-half is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-5-desktop  is-5-widescreen is-offset-1-widescreen is-5-fullhd is-offset-1-fullhd aos-init aos-animate"
+              >
+                <h1 className="is-size-3 py-3 has-text-light has-text-weight-bold has-text-light">
                   PROJECT SPOTLIGHT
                 </h1>
-                <h2 className="is-size-5 py-2 has-text-light">
-                  The BaniDB API, developed by Khalis, provides a single source of Gurbani for the next generation of Gurbani applications and websites. We have developed the largest and most accurate Gurbani database in the world.
+                <h2 className="is-size-6 py-2 has-text-light">
+                  The BaniDB API, developed by Khalis, provides a single source
+                  of Gurbani for the next generation of Gurbani applications and
+                  websites. We have developed the largest and most accurate
+                  Gurbani database in the world.
                 </h2>
-                <a className="button button-dark" href="http://www.banidb.com/">Visit Site</a>
+                <a className="button button-dark" href="http://www.banidb.com/">
+                  Visit Site
+                </a>
               </div>
-
             </div>
           </div>
         </div>
       </section>
-      <section class="section">
+      <section class="section py-2" id="recent">
         <div className="container px-4 h-25">
           <div className="has-text-centered">
-            <h2 class="is-size-1 py-3">RECENT PROJECTS</h2>
+            <h2 class="is-size-2 py-3 has-text-dark has-text-weight-bold">
+              RECENT PROJECTS
+            </h2>
 
             <div className="columns">
               <div className="column is-one-third">
@@ -147,24 +203,22 @@ export const IndexPageTemplate = ({
                     src="./../img/myfirstgutka.avif"
                     alt="Avatar"
                     className="logo text"
-                  // style={{ width: "100%" }}
+                    // style={{ width: "100%" }}
                   />
                   <div className="middle">
                     <div className="middlemiddle">
                       <div className="has-text-centered ">
-                        <Link href="/partners/igurbani">
-                          <a className=" "
-                          // style={{ textDecoration: "none", color: "white", display: 'flex', flexDirection: 'column', alignItems: "center", justifyContent: "center" }}
+                        <Link href="/portfolio/my-first-gutka/">
+                          <a
+                            className=" "
+                            // style={{ textDecoration: "none", color: "white", display: 'flex', flexDirection: 'column', alignItems: "center", justifyContent: "center" }}
                           >
                             <StaticImage src="./../img/right-icon.svg" />
                             <p className="is-size-3 has-text-weight-bold has-text-light">
                               My First Gutka
                             </p>
                           </a>
-
                         </Link>
-
-
                       </div>
                     </div>
                   </div>
@@ -180,9 +234,8 @@ export const IndexPageTemplate = ({
                   <div className="middle">
                     <div className="middlemiddle">
                       <div className="text-center ">
-                        <Link href="/partners/sikhitothemax">
-                          <a className=""
-                          >
+                        <Link href="/portfolio/amrit-keertan">
+                          <a className="">
                             <StaticImage src="./../img/right-icon.svg" />
                             <p className="is-size-3 has-text-weight-bold has-text-light ">
                               Amrit Keertan
@@ -204,9 +257,8 @@ export const IndexPageTemplate = ({
                   <div className="middle">
                     <div className="middlemiddle">
                       <div className="text-center ">
-                        <Link href="/partners/sikhitothemax">
-                          <a className=""
-                          >
+                        <Link href="/portfolio/sundar-gutka/">
+                          <a className="">
                             <StaticImage src="./../img/right-icon.svg" />
                             <p className="is-size-3 has-text-weight-bold has-text-light">
                               Sundar Gutka
@@ -218,28 +270,25 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
               </div>
-
             </div>
             <div className="columns">
-
-
               <div className="column is-one-third">
                 <div className="container1">
                   <StaticImage
                     src="./../img/sikhimax.avif"
                     alt="Avatar"
                     className="logo text"
-                  // style={{ width: "100%" }}
+                    // style={{ width: "100%" }}
                   />
-                <div className="middle">
+                  <div className="middle">
                     <div className="middlemiddle">
                       <div className="text-center ">
-                        <Link href="/partners/sikhitothemax">
-                          <a className=""
-                          >
+                        <Link href="/portfolio/sikhitothemax/">
+                          <a className="">
                             <StaticImage src="./../img/right-icon.svg" />
                             <p className="is-size-3 has-text-weight-bold has-text-light">
-                            SikhiToTheMax                            </p>
+                              SikhiToTheMax{" "}
+                            </p>
                           </a>
                         </Link>
                       </div>
@@ -253,17 +302,17 @@ export const IndexPageTemplate = ({
                     src="./../img/baalbodh-f-1.avif"
                     alt="Avatar"
                     className="logo text"
-                  // style={{ width: "100%" }}
+                    // style={{ width: "100%" }}
                   />
-                    <div className="middle">
+                  <div className="middle">
                     <div className="middlemiddle">
                       <div className="text-center ">
-                        <Link href="/partners/sikhitothemax">
-                          <a className=" "
-                          >
+                        <Link href="/portfolio/baal-bodh/">
+                          <a className=" ">
                             <StaticImage src="./../img/right-icon.svg" />
                             <p className="is-size-3 has-text-weight-bold has-text-light">
-                            Baal Bodh                            </p>
+                              Baal Bodh{" "}
+                            </p>
                           </a>
                         </Link>
                       </div>
@@ -271,7 +320,6 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -381,15 +429,16 @@ export const IndexPageTemplate = ({
 
           </div>
         </div> */}
-      </section >
+      </section>
 
-      <section class="hero has-background-primary ">
+      <section class="hero has-background-primary " id="contact">
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="title is-1 has-text-light">Contact Us</h1>
+            <h1 class="is-size-2 py-3 has-text-light has-text-weight-bold">
+              Contact Us
+            </h1>
 
             <div class="columns is-8 is-variable ">
-
               <div class="column is-two-third has-text-left">
                 <div class="field">
                   <label class="label has-text-light">Name</label>
@@ -416,54 +465,59 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div class="control">
-                  <button type="submit" class="button is-dark has-text-weight-medium is-medium is-rounded">Send Message</button>
+                  <button
+                    type="submit"
+                    class="button is-dark has-text-weight-medium is-medium is-rounded"
+                  >
+                    Send Message
+                  </button>
                 </div>
               </div>
               <div class="column is-one-thirds has-text-left">
                 <div className="contact-div">
-                  <h1 className="is-size-3 has-text-weight-bold	has-text-light">We want to hear from you
+                  <h1 className="is-size-4 has-text-weight-bold	has-text-light">
+                    We want to hear from you
                   </h1>
-                  <p className="is-size-5 has-text-light">If you have a suggestion for an app or want to report a bug, please let us know.
+                  <p className="is-size-5 has-text-light">
+                    If you have a suggestion for an app or want to report a bug,
+                    please let us know.
                   </p>
                 </div>
                 <div className="contact-div">
-                  <h1 className="is-size-3 has-text-weight-bold	has-text-light">
+                  <h1 className="is-size-4 has-text-weight-bold	has-text-light">
                     Have any questions?
                   </h1>
                   <p className="is-size-5 has-text-light">
                     Want to know why something is the way it is? Drop us a line!
-
                   </p>
                 </div>
                 <div className="contact-div">
-                  <h1 className="is-size-3 has-text-weight-bold has-text-light	">
+                  <h1 className="is-size-4 has-text-weight-bold has-text-light	">
                     Address
                   </h1>
                   <p className="is-size-5 has-text-light">
                     Khalis Foundation <br />
-                    142 N. Milpitas Blvd,<br />
-                    Ste. 276<br />
-                    Milpitas, CA 95035<br />
+                    142 N. Milpitas Blvd,
+                    <br />
+                    Ste. 276
+                    <br />
+                    Milpitas, CA 95035
+                    <br />
                     United States
                   </p>
                 </div>
                 <div className="contact-div">
-                  <h1 className="is-size-3 has-text-weight-bold	has-text-light">
+                  <h1 className="is-size-4 has-text-weight-bold	has-text-light">
                     Phone & WhatsApp
-
                   </h1>
-                  <p className="is-size-5 has-text-light">
-                    +1 (510) 394-0102
-                  </p>
+                  <p className="is-size-5 has-text-light">+1 (510) 394-0102</p>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
       </section>
-
-    </div >
+    </div>
   );
 };
 
@@ -508,7 +562,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
- 
+
         heading
         subheading
         mainpitch {
@@ -516,7 +570,6 @@ export const pageQuery = graphql`
           description
         }
         description
-     
       }
     }
   }

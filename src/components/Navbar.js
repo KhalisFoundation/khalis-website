@@ -22,11 +22,11 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-            navBarActiveClass: "is-active",
-          })
+              navBarActiveClass: "is-active",
+            })
           : this.setState({
-            navBarActiveClass: "",
-          });
+              navBarActiveClass: "",
+            });
       }
     );
   }
@@ -74,7 +74,6 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered has-shadow">
-
               <Link
                 className="navbar-item is-family-secondary nav-item has-text-light "
                 to="/"
@@ -95,7 +94,7 @@ const Navbar = class extends React.Component {
               </Link>
               <Link
                 className="navbar-item is-family-secondary nav-item has-text-light"
-                to="#recent"
+                to="/#recent"
               >
                 RECENT
               </Link>
@@ -105,74 +104,123 @@ const Navbar = class extends React.Component {
               >
                 CONTACT
               </Link>
-              {/* <Link
-                className="navbar-item is-family-secondary nav-item has-text-light"
-                to="#"
-              > */}
-                <div class="navbar-dropdown is-boxed">
-                  <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
-                    Overview
-                  </a>
-                  <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">
-                    Modifiers
-                  </a>
-                  <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-                    Columns
-                  </a>
-                  <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
-                    Layout
-                  </a>
-                  <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
-                    Components
-                  </a>
-                </div>
-              {/* </Link> */}
-              {/* <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                  Docs
+              <div class="navbar-item has-dropdown is-hoverable ">
+                <a class="navbar-link is-family-secondary has-text-light has-text-weight-bold">
+                  PROJECTS
                 </a>
 
-                <div class="navbar-dropdown">
-                  <a class="navbar-item">
-                    Overview
-                  </a>
-                  <a class="navbar-item">
-                    Elements
-                  </a>
-                  <a class="navbar-item">
-                    Components
-                  </a>
-                  <hr class="navbar-divider" />
-                  <div class="navbar-item">
-                    Version 0.9.4
-                  </div>
+                <div class="navbar-dropdown has-background-black">
+                  <Link
+                    to="/apps"
+                    class="navbar-item is-family-secondary   "
+                    style={{
+                      color: "white",
+                      fontSize: "18px",
+                      fontWeight: "700",
+                      paddingTop: "0.4rem !important",
+                    }}
+                  >
+                    OUR APPS
+                  </Link>
+                  <Link
+                    to="/sites"
+                    class="navbar-item is-family-secondary   "
+                    style={{
+                      color: "white",
+                      fontSize: "18px",
+                      fontWeight: "700",
+                      paddingTop: "0.4rem !important",
+                    }}
+                  >
+                    SITES
+                  </Link>
+                  <Link
+                    to="/course-catalog"
+                    class="navbar-item is-family-secondary   "
+                    style={{
+                      color: "white",
+                      fontSize: "18px",
+                      fontWeight: "700",
+                      paddingTop: "0.4rem !important",
+                    }}
+                  >
+                    COURSES
+                  </Link>
                 </div>
-              </div> */}
+              </div>
+
               <Link
                 className="navbar-item is-family-secondary nav-item has-text-light"
                 to="https://shop.khal.is/"
               >
                 SHOP
               </Link>
-              <Link
-                className="navbar-item is-family-secondary nav-item has-text-light "
-                to="#foundation"
-              >
-                FOUNDATION
-              </Link>
+              <div class="navbar-item has-dropdown is-hoverable ">
+                <a class="navbar-link is-family-secondary has-text-light has-text-weight-bold">
+                  FOUNDATION
+                </a>
 
+                <div class="navbar-dropdown has-background-black">
+                  <a
+                    href="/blog"
+                    class="navbar-item is-family-secondary   "
+                    style={{
+                      color: "white",
+                      fontSize: "18px",
+                      fontWeight: "700",
+                      paddingTop: "0.4rem !important",
+                    }}
+                  >
+                    News
+                  </a>
+                  <a
+                    href="/board-of-directors"
+                    class="navbar-item is-family-secondary   "
+                    style={{
+                      color: "white",
+                      fontSize: "18px",
+                      fontWeight: "700",
+                      paddingTop: "0.2rem",
+                    }}
+                  >
+                    BOARD OF DIRECTORS
+                  </a>
+                  <a
+                    href="/staff-volunteers"
+                    class="navbar-item is-family-secondary   "
+                    style={{
+                      color: "white",
+                      fontSize: "18px",
+                      fontWeight: "700",
+                      paddingTop: "0.2rem",
+                    }}
+                  >
+                    STAFF | VOLUNTEERS
+                  </a>
+
+                  <a
+                    href="/sponsors-and-thanks"
+                    class="navbar-item is-family-secondary   "
+                    style={{
+                      color: "white",
+                      fontSize: "18px",
+                      fontWeight: "700",
+                      paddingTop: "0.2rem",
+                    }}
+                  >
+                    SPONSORS AND THANKS
+                  </a>
+                </div>
+              </div>
             </div>
             <div className="navbar-end has-text-centered ">
               <div className=" my-2">
-
                 <a
                   href="/donate"
                   className="px-5 py-2 button is-primary is-rounded has-text-light"
                 >
                   Donate
                 </a>
-
-
               </div>
             </div>
           </div>

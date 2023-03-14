@@ -51,11 +51,7 @@ const Apps = (props) => {
                         <p className="has-text-weight-bold">Special thanks to:-</p>
                         <table class="table is-bordered">
 
-
                             <tbody>
-
-
-
                                 <tr className="columns">
                                     <td className=" column is-half">
                                         <ul className="is-bordered">
