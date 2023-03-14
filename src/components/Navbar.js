@@ -82,13 +82,13 @@ const Navbar = class extends React.Component {
               </Link>
               <Link
                 className="navbar-item is-family-secondary nav-item has-text-light "
-                to="#about"
+                to="/#about"
               >
                 ABOUT
               </Link>
               <Link
                 className="navbar-item is-family-secondary nav-item has-text-light"
-                to="#spotlight"
+                to="/#spotlight"
               >
                 SPOTLIGHT
               </Link>
@@ -100,7 +100,7 @@ const Navbar = class extends React.Component {
               </Link>
               <Link
                 className="navbar-item is-family-secondary nav-item has-text-light"
-                to="#contact"
+                to="/#contact"
               >
                 CONTACT
               </Link>
