@@ -18,7 +18,7 @@ const Apps = () => {
       <div className="section section--gradient">
         <section className="hero ">
           <div className="container py-4 px-4">
-            <h1 className="is-size-1 py-4 has-text-weight-bold">OUR APPS</h1>
+            <h1 className="is-size-1 pt-5 has-text-weight-bold">OUR APPS</h1>
             <p className="is-size-4 py-6">
               Khalis Foundation works on a number of Sikhi and educational apps.
             </p>

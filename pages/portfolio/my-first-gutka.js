@@ -1,26 +1,27 @@
 import * as React from "react";
-import Layout from "../../components/Layout";
-import { Link, graphql } from "gatsby";
-import { Helmet } from "react-helmet";
-import { StaticImage } from "gatsby-plugin-image";
+import Seo from '../../components/SEO'
+import Image from "next/image";
+import myFirstGutka from  "../../components/img/myfirst1024x660.png";
+import google from  "../../components/img/googlestoreicon.png";
+import apple from  "../../components/img/apple-app-store-icon.png";
 
-const Apps = (props) => {
-  const title = props.data.site.siteMetadata.title;
+
+const Apps = () => {
 
   return (
-    <Layout>
-      <Helmet title={title} />
+    <>
+      <Seo title="My First Gutka" />
       <div className="section section--gradient">
         <section className="hero ">
           <div className="container py-4 px-4">
-            <h1 className="is-size-1 py-6 has-text-centered has-text-weight-bold">
+            <h1 className="is-size-1 pt-5 has-text-left has-text-weight-bold">
               MY FIRST GUTKA
             </h1>
-            <div class="columns is-centered py-4">
+            <div class="columns is-centered py-6">
               <div class="column is-half">
                 <div class="card ">
                   <div class="card-image">
-                    <StaticImage src="./../img/myfirstgutka.avif" />
+                    <Image src={myFirstGutka}/>
                   </div>
                 </div>
               </div>
@@ -50,17 +51,17 @@ const Apps = (props) => {
                     <li className="list-item"> Light &amp; Dark themes.</li>
                   </ol>
                 </div>
-                <div className="is-flex py-3">
-                  <a href="https://play.google.com/store/apps/details?id=com.KhalisFoundation.MyFirstGutka">
-                    <StaticImage
-                      src="../../img/googlestoreicon.png"
+                <div className="is-flex py-3 ">
+                  <a className="px-2" href="https://play.google.com/store/apps/details?id=com.KhalisFoundation.MyFirstGutka">
+                    <Image
+                      src={google}
                       width={160}
                       height={60}
                     />
                   </a>
-                  <a href="https://apps.apple.com/gb/app/my-first-gutka/id1488162729">
-                    <StaticImage 
-                    src="../../img/apple-app-store-icon.png"
+                  <a  className="px-2" href="https://apps.apple.com/gb/app/my-first-gutka/id1488162729">
+                    <Image 
+                    src={apple}
                     width={175}
                       height={60}
                       layout='constrained'
@@ -72,18 +73,9 @@ const Apps = (props) => {
           </div>
         </section>
       </div>
-    </Layout>
+    </>
   );
 };
 
 export default Apps;
 
-export const tagPageQuery = graphql`
-  query Apps {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;

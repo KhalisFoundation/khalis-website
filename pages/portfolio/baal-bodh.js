@@ -1,22 +1,22 @@
 import * as React from "react";
-import Layout from "../../components/Layout";
-import { Link, graphql } from "gatsby";
-import { Helmet } from "react-helmet";
-import { StaticImage } from "gatsby-plugin-image";
+import Seo from '../../components/SEO'
+import Image from "next/image";
+import google from  "../../components/img/googlestoreicon.png";
+import apple from  "../../components/img/apple-app-store-icon.png";
 
-const Apps = (props) => {
-  const title = props.data.site.siteMetadata.title;
+
+const Apps = () => {
 
   return (
-    <Layout>
-      <Helmet title={title} />
+    <>
+      <Seo title="Baal Bodh"/>
       <div className="section section--gradient">
         <section className="hero ">
           <div className="container py-4 px-4">
-            <h1 className="is-size-1 py-6 has-text-centered has-text-weight-bold">
+            <h1 className="is-size-1 pt-5 has-text-left has-text-weight-bold">
               BAAL BODH
             </h1>
-            <div class="columns is-centered py-4">
+            <div class="columns is-centered py-6">
               <div class="column is-full">
                 <div className=" px-0 pb-0">
                   <p className="is-size-3 has-text-weight-bold">Description</p>
@@ -56,8 +56,8 @@ const Apps = (props) => {
                     href="https://play.google.com/store/apps/details?id=org.khalisfoundation.baalbodh"
                     className="py-2"
                   >
-                    <StaticImage
-                      src="../../img/Google-Play-Badge.avif"
+                    <Image
+                      src={google}
                       width={180}
                       height={50}
                     />
@@ -66,8 +66,8 @@ const Apps = (props) => {
                     href="https://itunes.apple.com/us/app/baal-bodh/id961465050?mt=8"
                     className="py-2"
                   >
-                    <StaticImage
-                      src="../../img/appleappstore.png"
+                    <Image
+                      src={apple}
                       width={180}
                       height={50}
                     />
@@ -78,18 +78,9 @@ const Apps = (props) => {
           </div>
         </section>
       </div>
-    </Layout>
+    </>
   );
 };
 
 export default Apps;
 
-export const tagPageQuery = graphql`
-  query Apps {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;

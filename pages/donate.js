@@ -1,22 +1,18 @@
 import * as React from "react";
-import Layout from "../components/Layout";
-import { Link, graphql } from "gatsby";
-import { Helmet } from "react-helmet";
-import { StaticImage } from "gatsby-plugin-image"
+import Seo from '../components/SEO'
 
-const Apps = (props) => {
-    const title = props.data.site.siteMetadata.title;
+const Apps = () => {
 
     return (
-        <Layout>
-            <Helmet title={title} />
+        <>
+            <Seo title="Donate" />
             <div className="section section--gradient">
                 <section className="hero ">
                     <div className="container py-4 px-4 is-flex is-flex-direction-column is-align-content-center	is-justify-content-center	">
-                        <h1 className="is-size-1 py-4 has-text-centered has-text-weight-bold">
+                        <h1 className="is-size-1 px-5  pt-5 has-text-left has-text-weight-bold">
                             DONATE
                         </h1>
-                        <p className="is-size-5 px-5 py-3 has-text-centered">
+                        <p className="is-size-5 px-5 py-6 has-text-left">
                             Established in 2000, Khalis Foundation is a fast growing Sikhi portal on the net. With the grace of the Almighty Waheguroo, we have been able to add apps and services promoting education, tolerance, unity and the beautiful teachings of the Gurus. Sikh youth education, community awareness and outreach, high quality media libraries, children’s apps, gurbani apps–these are just SOME of the projects in the works by the sevadaars at Khalis Foundation.
                         </p>
                         <p className="is-size-5 py-3 has-text-weight-bold has-text-centered">
@@ -61,18 +57,9 @@ const Apps = (props) => {
                     </div>
                 </section>
             </div>
-        </Layout>
+        </>
     );
 };
 
 export default Apps;
 
-export const tagPageQuery = graphql`
-                query Apps {
-                    site {
-                    siteMetadata {
-                    title
-                }
-    }
-  }
-                `;

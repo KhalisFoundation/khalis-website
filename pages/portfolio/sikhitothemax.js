@@ -1,41 +1,50 @@
 import * as React from "react";
-import Layout from "../../components/Layout";
-import { Link, graphql } from "gatsby";
-import { Helmet } from "react-helmet";
-import { StaticImage } from "gatsby-plugin-image";
-
-const Apps = (props) => {
-  const title = props.data.site.siteMetadata.title;
+import Seo from '../../components/SEO'
+import Image from "next/image";
+import windows from "../../components/img/img_how_to_get_rid_of_windows_10_icon_from_your_taskbar_9334_orig.jpeg";
+import youtube from "../../components/img/khalisTHUMB.jpg";
+import sikhi1 from "../../components/img/main-screen.png";
+import sikhi2 from "../../components/img/letters.png";
+import sikhi3 from "../../components/img/themes.png";
+import Sikhi from '../../components/img/STTM_Long-Logo.png'
+const Apps = () => {
 
   return (
-    <Layout>
-      <Helmet title={title} />
+    <>
+      <Seo title="SIKHITOTHEMAX" />
       <div className="section section--gradient">
         <section className="hero ">
           <div className="container py-3 px-4">
-            <h1 className="is-size-1 py-6 has-text-centered has-text-weight-bold">
+            <h1 className="is-size-1 pt-6 has-text-left has-text-weight-bold">
               SIKHITOTHEMAX{" "}
             </h1>
-            <p className="is-size-5 py-3 has-text-left has-text-weight-bold">
+            <div className="is-flex is-justify-content-center	 is-align-content-center	"            >
+              <Image src={Sikhi} width={300} height={300}
+              />
+            </div>
+
+            <p className="is-size-5 py-4 has-text-left has-text-weight-bold">
               The world’s most popular Gurbani presentation software.
             </p>
             <div class="columns is-centered py-3">
               <div class="column is-one-third">
                 <div class="card ">
                   <div class="card-image">
-                    <StaticImage src="../../img/sikhi1.avif" width={500} />
+                    <Image src={
+                      sikhi1
+                    } width={500} height={500} />
                     <p className="is-size-5 py-6 has-text-centered has-text-weight-bold">
                       Presenter mode
                     </p>
                   </div>
                   <div class="card-image">
-                    <StaticImage src="../../img/sikhi2.avif" width={500} />
+                    <Image src={sikhi2} width={500} height={500} />
                     <p className="is-size-5 py-6 has-text-centered has-text-weight-bold">
                       Powerful search
                     </p>
                   </div>
                   <div class="card-image">
-                    <StaticImage src="../../img/sikhi3.avif" width={500} />
+                    <Image src={sikhi3} width={500} height={500} />
                     <p className="is-size-5 py-6 has-text-centered has-text-weight-bold">
                       Beautiful themes
                     </p>
@@ -162,8 +171,8 @@ const Apps = (props) => {
               <tbody>
                 <tr>
                   <td>
-                    <StaticImage
-                      src="../../img/windowicon.avif"
+                    <Image
+                      src={windows}
                       width={280}
                       height={240}
                     />
@@ -184,8 +193,8 @@ const Apps = (props) => {
                 </tr>
                 <tr>
                   <td>
-                    <StaticImage
-                      src="../../img/windowicon.avif"
+                    <Image
+                      src={windows}
                       width={280}
                       height={240}
                     />
@@ -204,8 +213,8 @@ const Apps = (props) => {
                 </tr>
                 <tr>
                   <td>
-                    <StaticImage
-                      src="../../img/windowicon.avif"
+                    <Image
+                      src={windows}
                       width={280}
                       height={240}
                     />
@@ -236,8 +245,8 @@ const Apps = (props) => {
                 </tr>
                 <tr>
                   <td>
-                    <StaticImage
-                      src="../../img/windowicon.avif"
+                    <Image
+                      src={windows}
                       width={280}
                       height={240}
                     />
@@ -279,8 +288,8 @@ const Apps = (props) => {
               SikhiToTheMax is open source and we take pull requests! Help make
               SikhiToTheMax better by contributing code. You can find us on
               Github:{" "}
-              <a                       className="has-text-primary"
- href="https://github.com/KhalisFoundation">
+              <a className="has-text-primary"
+                href="https://github.com/KhalisFoundation">
                 https://github.com/KhalisFoundation
               </a>
             </p>
@@ -292,34 +301,25 @@ const Apps = (props) => {
               hard work on the project, the BaniDB alliance, who have helped
               make SikhiToTheMax and other apps to be the most powerful and
               accurate. More information:{" "}
-              <a                       className="has-text-primary"
- href="http://www.banidb.com">http://www.banidb.com</a>
+              <a className="has-text-primary"
+                href="http://www.banidb.com">http://www.banidb.com</a>
             </p>
             <h3 className="is-size-4 has-text-weight-bold">SikhiToTheMax Tutorial</h3>
             <p>Learn everything about SikhiToTheMax in this tutorial video:</p>
-            <a                       className="has-text-primary"
- href="https://youtu.be/3Bf87Jeo_mI">
-              <StaticImage
-                src="../../img/khalisTHUMB.avif"
-                // width={280}
-                // height={240}
+            <a className="has-text-primary"
+              href="https://youtu.be/3Bf87Jeo_mI">
+              <Image
+                src={youtube}
+                width={420}
+                height={320}
               />
             </a>
           </div>
         </section>
       </div>
-    </Layout>
+    </>
   );
 };
 
 export default Apps;
 
-export const tagPageQuery = graphql`
-  query Apps {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;
