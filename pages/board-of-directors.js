@@ -18,9 +18,7 @@ const Apps = () => {
             <h1 className="is-size-1 py-6 has-text-centered has-text-weight-bold">
               BOARD OF DIRECTORS
             </h1>
-{/* 35101-31600628
-Zahira Begum
-Kot Saleem Haider */}
+
 
             <div class="columns is-centered py-4">
               <div class="column is-one-third">
@@ -53,7 +51,7 @@ Kot Saleem Haider */}
                         ਡਗਮਗਛਾਡਿਰੇਮਨਬਉਰਾ॥ <br />
                         Stop your wavering, O crazy people!
                       </p>
-                      <p> – Raag Gauree p338 </p>{" "}
+                      <p> - Raag Gauree p338 </p>
                     </div>
                   </div>
                 </div>
@@ -83,9 +81,9 @@ Kot Saleem Haider */}
                     <div className=" px-0 pb-0">
                       <p className="has-text-centered">
                         ਗੁਰਪ੍ਰਸਾਦਿ <br />
-                        By Guru’s Grace.
+                        By Guru&apos;s Grace.
                       </p>
-                      <p> – Mool Mantr p1</p>{" "}
+                      <p> – Mool Mantr p1</p>
                     </div>
                   </div>
                 </div>
@@ -104,7 +102,7 @@ Kot Saleem Haider */}
                           </p>
                           <p class="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
                             Taranjit Singh is a Software Engineer with a
-                            Master's degree in computer science. He is a
+                            Master&apos;s degree in computer science. He is a
                             proponent for learning and building accessible
                             software. He brings several years of experience
                             working for technology companies.
@@ -117,7 +115,7 @@ Kot Saleem Haider */}
                         ਡਗਮਗਛਾਡਿਰੇਮਨਬਉਰਾ॥ <br />
                         Stop your wavering, O crazy people!
                       </p>
-                      <p> – Raag Gauree p338 </p>{" "}
+                      <p> - Raag Gauree p338 </p>
                     </div>
                   </div>
                 </div>
@@ -188,10 +186,10 @@ Kot Saleem Haider */}
                       <p className="has-text-centered">
                         ਜੇ ਗੁਰੁ ਝਿੜਕੇ ਤ ਮੀਠਾ ਲਾਗੈ ਜੇ ਬਖਸੇ ਤ ਗੁਰ ਵਡਿਆਈ ॥੨੫॥ Even
                         if the Guru rebukes me, He still seems very sweet to me.
-                        And if He actually forgives me, that is the Guru’s
+                        And if He actually forgives me, that is the Guru&apos;s
                         greatness. ||25||
                       </p>
-                      <p> – Raag Soohee p757 </p>
+                      <p> - Raag Soohee p757 </p>
                     </div>
                   </div>
                 </div>

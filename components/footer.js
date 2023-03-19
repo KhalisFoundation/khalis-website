@@ -4,8 +4,8 @@ import  Link  from "next/link";
 // import logo from "../img/logo.svg";
 import facebook from "./img/social/facebook.svg";
 import instagram from "./img/social/instagram.svg";
-import tiktok from "./img/social/tiktok.svg";
-import telegram from "./img/social/telegram.svg";
+import linkedin from "./img/social/logo-linkedin.svg";
+import twitter from "./img/social/logo-twitter.svg";
 import rightIcon from "./img/right-icon.svg";
 import Image from 'next/image'
 
@@ -62,7 +62,7 @@ const Footer = () => {
                     <Link
                       className="py-2 px-2"
                       title="facebook"
-                      href="https://www.facebook.com/surprisingift"
+                      href="https://www.facebook.com/KhalisFoundation"
                     >
                       <div className="is-flex is-flex-direction-row	is-align-items-center	">
                         <Image src={facebook} alt="Facebook" width={50} height={50} />
@@ -71,7 +71,7 @@ const Footer = () => {
                     <Link
                       className="py-2 px-2"
                       title="instagram"
-                      href="https://www.instagram.com/gifft.me/"
+                      href="https://www.instagram.com/khalisfound/"
                     >
                       <div className="is-flex is-flex-direction-row	is-align-items-center	">
                         <Image src={instagram} alt="instagram" width={50} height={50} />
@@ -79,20 +79,20 @@ const Footer = () => {
                     </Link>
                     <Link
                       className="py-2 px-2"
-                      title="telegram"
-                      href="https://t.me/gifftme"
+                      title="twitter"
+                      href="https://twitter.com/khalisfound"
                     >
                       <div className="is-flex is-flex-direction-row	is-align-items-center	">
-                        <Image src={telegram} alt="Telegram" width={50} height={50} />
+                        <Image src={twitter} alt="twitter" width={50} height={50} />
                       </div>
                     </Link>
                     <Link
                       className="py-2 px-2"
-                      title="tiktok"
-                      href="https://www.tiktok.com/@gifftme"
+                      title="linkedin"
+                      href="https://www.linkedin.com/company/khalis-foundation/"
                     >
-                      <div className="is-flex is-flex-direction-row	is-align-items-center	">
-                        <Image src={tiktok} alt="tiktok" width={50} height={50} />
+                      <div className="is-flex is-flex-direction-row	is-align-items-center 	">
+                        <Image src={linkedin} alt="linkedin" width={50} height={50} />
                       </div>
                     </Link>
                   </div>

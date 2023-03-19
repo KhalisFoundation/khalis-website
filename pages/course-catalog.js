@@ -1,3 +1,4 @@
+import Link from "next/link";
 import * as React from "react";
 import SEO from "../components/SEO";
 
@@ -19,8 +20,8 @@ const Apps = (props) => {
               a course below to begin.
             </p>
             <p>
-              Interested in offering a course through Khalis Foundation?{" "}
-              <a className="has-text-primary" href="/#contact/">Click here</a> to
+              Interested in offering a course through Khalis Foundation?
+              <Link className="has-text-primary" href="/#contact/">Click here</Link> to
               contact us.
             </p>
             <p>

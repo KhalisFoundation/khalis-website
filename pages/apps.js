@@ -9,9 +9,9 @@ import baalbodh from "../components/img/baalbodh-f-1.png";
 import learnlareevar from "../components/img/learnlareevar-f.png";
 import Maryada from "../components/img/Maryada.jpg";
 import MyPothi from "../components/img/MyPothi.jpg";
+import Link from "next/link";
 
 const Apps = () => {
-
   return (
     <>
       <Seo title="Apps " />
@@ -40,12 +40,12 @@ const Apps = () => {
                           sing their Nitnem with built-in musical versions of
                           Baanis that they can follow along to.
                         </p>
-                        <a
+                        <Link
                           className="button is-link"
                           href="/portfolio/my-first-gutka/"
                         >
                           Read More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -68,12 +68,12 @@ const Apps = () => {
                           from Sri Guru Granth Sahib Jee, and other Sikh
                           scriptures, most commonly sung in Sikh congregations.
                         </p>
-                        <a
+                        <Link
                           className="button is-link"
                           href="/portfolio/amrit-keertan"
                         >
                           Read More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -94,12 +94,12 @@ const Apps = () => {
                           Khalsa Sundar Gutka contains the daily and extended
                           Sikh Prayers also known as Nitnem.
                         </p>
-                        <a
+                        <Link
                           className="button is-link"
                           href="/portfolio/sundar-gutka/"
                         >
                           Read More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -121,12 +121,12 @@ const Apps = () => {
                           Gurbani presenter app that changes how Gurbani is
                           experienced.
                         </p>
-                        <a
+                        <Link
                           className="button is-link"
                           href="/portfolio/sikhitothemax/"
                         >
                           Read More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -149,12 +149,12 @@ const Apps = () => {
                           Baal Bodh teaches Punjabi to children using simple
                           flash cards with great artwork and sound.
                         </p>
-                        <a
+                        <Link
                           className="button is-link"
                           href="/portfolio/baal-bodh/"
                         >
                           Read More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -178,12 +178,12 @@ const Apps = () => {
                           Larivaar, you can toggle back and forth between
                           assisted and unassisted views to get a helping hand.
                         </p>
-                        <a
+                        <Link
                           className="button is-link"
                           href="/portfolio/learn-larivaar/"
                         >
                           Read More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -205,12 +205,12 @@ const Apps = () => {
                           The app has both a gurmukhi (punjabi) and English
                           version of the most current rehat maryada.
                         </p>
-                        <a
+                        <Link
                           className="button is-link"
                           href="/portfolio/maryada/"
                         >
                           Read More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -234,12 +234,12 @@ const Apps = () => {
                           online and they automatically sync to your mobile
                           device.
                         </p>
-                        <a
+                        <Link
                           className="button is-link"
                           href="/portfolio/mypothi/"
                         >
                           Read More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

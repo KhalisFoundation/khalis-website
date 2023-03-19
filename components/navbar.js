@@ -3,7 +3,7 @@ import Link from "next/link";
 import logo from "./img/khalis-logo-inv-hq.png";
 import Image from "next/image";
 
-const Navbar = class extends React.Component {
+class Navbar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -49,10 +49,10 @@ const Navbar = class extends React.Component {
             <Link href="/" className="navbar-item">
               <Image
                 src={logo}
-                alt="Surprise Gift Blog"
+                alt="Khalis Foundation"
                 // style={{ width: "100px", height: "40px" }}
-                width={140}
-                height={180}
+                width={100}
+                height={140}
               />
               {/* <span className="has-text-primary body-text ml-2 has-text-centered">
                 Surprise Gift Blog
@@ -108,12 +108,12 @@ const Navbar = class extends React.Component {
                 CONTACT
               </Link>
               <div class="navbar-item has-dropdown is-hoverable ">
-                <a class="navbar-link is-family-secondary has-text-light has-text-weight-bold">
+                <p class="navbar-link is-family-secondary has-text-light has-text-weight-bold">
                   PROJECTS
-                </a>
+                </p>
 
                 <div class="navbar-dropdown has-background-black">
-                  <a
+                  <Link
                     href="/apps"
                     class="navbar-item is-family-secondary   "
                     style={{
@@ -124,8 +124,8 @@ const Navbar = class extends React.Component {
                     }}
                   >
                     OUR APPS
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/sites"
                     class="navbar-item is-family-secondary   "
                     style={{
@@ -136,8 +136,8 @@ const Navbar = class extends React.Component {
                     }}
                   >
                     SITES
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/course-catalog"
                     class="navbar-item is-family-secondary   "
                     style={{
@@ -148,7 +148,7 @@ const Navbar = class extends React.Component {
                     }}
                   >
                     COURSES
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -159,13 +159,13 @@ const Navbar = class extends React.Component {
                 SHOP
               </Link>
               <div class="navbar-item has-dropdown is-hoverable ">
-                <a class="navbar-link is-family-secondary has-text-light has-text-weight-bold">
+                <p class="navbar-link is-family-secondary has-text-light has-text-weight-bold">
                   FOUNDATION
-                </a>
+                </p>
 
                 <div class="navbar-dropdown has-background-black">
-                  <a
-                    href="/blog"
+                  <Link
+                    href="/news"
                     class="navbar-item is-family-secondary   "
                     style={{
                       color: "white",
@@ -175,8 +175,8 @@ const Navbar = class extends React.Component {
                     }}
                   >
                     NEWS
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/board-of-directors"
                     class="navbar-item is-family-secondary   "
                     style={{
@@ -187,8 +187,8 @@ const Navbar = class extends React.Component {
                     }}
                   >
                     BOARD OF DIRECTORS
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/staff-volunteers"
                     class="navbar-item is-family-secondary   "
                     style={{
@@ -199,9 +199,9 @@ const Navbar = class extends React.Component {
                     }}
                   >
                     STAFF | VOLUNTEERS
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     href="/sponsors-and-thanks"
                     class="navbar-item is-family-secondary   "
                     style={{
@@ -212,18 +212,18 @@ const Navbar = class extends React.Component {
                     }}
                   >
                     SPONSORS AND THANKS
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="navbar-end has-text-centered ">
               <div className=" my-2">
-                <a
+                <Link
                   href="/donate"
                   className="px-5 py-2 button is-primary is-rounded has-text-light"
                 >
                   Donate
-                </a>
+                </Link>
               </div>
             </div>
           </div>

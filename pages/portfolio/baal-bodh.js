@@ -1,15 +1,14 @@
 import * as React from "react";
-import Seo from '../../components/SEO'
+import Seo from "../../components/SEO";
 import Image from "next/image";
-import google from  "../../components/img/googlestoreicon.png";
-import apple from  "../../components/img/apple-app-store-icon.png";
+import google from "../../components/img/googlestoreicon.png";
+import apple from "../../components/img/apple-app-store-icon.png";
+import webapp from "../../components/img/webapp.png";
 
-
-const Apps = () => {
-
+const Apps = (props) => {
   return (
     <>
-      <Seo title="Baal Bodh"/>
+      <Seo title="Ball Bodh" />
       <div className="section section--gradient">
         <section className="hero ">
           <div className="container py-4 px-4">
@@ -56,21 +55,13 @@ const Apps = () => {
                     href="https://play.google.com/store/apps/details?id=org.khalisfoundation.baalbodh"
                     className="py-2"
                   >
-                    <Image
-                      src={google}
-                      width={180}
-                      height={50}
-                    />
+                    <Image src={google} width={180} height={50} />
                   </a>
                   <a
                     href="https://itunes.apple.com/us/app/baal-bodh/id961465050?mt=8"
                     className="py-2"
                   >
-                    <Image
-                      src={apple}
-                      width={180}
-                      height={50}
-                    />
+                    <Image src={apple} width={180} height={50} />
                   </a>
                 </div>
               </div>
@@ -83,4 +74,3 @@ const Apps = () => {
 };
 
 export default Apps;
-
