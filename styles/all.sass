@@ -7,6 +7,7 @@
 // Config vars
 $info: #546569
 $dark: #2b3436
+$black: #000
 $gray999: #C6BEC2
 $gray1000: #E0D9DC
 $khalis: #ff9000
@@ -17,7 +18,6 @@ $primary-invert: $khalis-invert
 $body-color: #201A1C
 $body-font-size:18px
 $body-line-height:27px
-$black: #2b2523
 $family-serif: "Opens Sans",Arial,sans-serif
 $family-secondary : "Opens Sans",Arial,sans-serif
 $family-primary: $family-serif
@@ -191,8 +191,6 @@ $menu-label-color: $white-ter
     height: 80px !important
   .navbar-item img 
     max-height: 3.5rem !important
-  .navbar-menu
-    background: #2b2523 !important
 
 +mobile
   .title 
@@ -281,6 +279,7 @@ $link: $blue
 
 .navbar-burger span
   height: 2px
+  color: white
 
 
 
@@ -288,7 +287,8 @@ $link: $blue
   top: calc(50% - 6px)
 .navbar-burger.is-active span:nth-child(3)
   top: calc(50% + 4px)
-
+.navbar-burger
+  margin-right: 15px
 .nav-item
   font-size: 18px !important
   font-weight: 700 !important
@@ -365,7 +365,8 @@ footer .body-text
   position: relative
   transition: all .2s ease-in-out
 
-
+.column
+  padding: 4px
 
 
 .hero.is-info 
@@ -394,7 +395,7 @@ footer .body-text
 .container1 
   position: relative
   width: auto
-
+  height: 280px
 
 .image 
   opacity: 1
@@ -409,14 +410,15 @@ footer .body-text
   transition: 0.5s ease
   opacity: 0
   position: absolute
-  top: 50%
+  top: 0%
   left: 50%
-  width: -webkit-fill-available
   padding: 0px
   transform: translate(-50%, -50%)
   -ms-transform: translate(-50%, -50%)
   text-align: center
-  border-radius: 20px
+  border-radius: 10px
+  width: 400px
+  height: 0%
 
 
 .container1:hover .image 
@@ -428,9 +430,10 @@ footer .body-text
 
 
 .middlemiddle 
-  background: $primary
+  background: $dark
   color: white
   font-weight: 700
   text-align: center
   font-size: 15px
-  padding: 58px 20px
+  padding: 5rem
+  border-radius: 10px

@@ -34,14 +34,14 @@ function Project() {
               RECENT PROJECTS
             </h2>
 
-            <div className="columns">
-              <div className="column is-one-third">
+            <div className="columns py-0 my-0">
+              <div className="column is-one-third px-0">
                 <div className="container1">
                   <Image
                     src={myfirst}
                     alt="Avatar"
                     className="logo text"
-                    width={500}
+                    width={600}
                     height={500}
                     // style={{ width: "100%" }}
                   />
@@ -90,12 +90,14 @@ function Project() {
                   </div>
                 </div>
               </div>
-              <div className="column is-one-third">
+              <div className="column is-one-third px-0">
                 <div className="container1">
                   <Image
                     src={amritkirtanf}
                     alt="Avatar"
                     className="logo text"
+                    width={500}
+                    height={500}
                   />
                   <button
                     className="middle"
@@ -120,8 +122,8 @@ function Project() {
                         src={amritkirtanf}
                         alt="Avatar"
                         className="logo text p-4"
-                        width={800}
-                        height={600}
+                        width={500}
+                        height={500}
                         // style={{ width: "100%" }}
                       />
                       <p className="is-size-3 px-6  has-text-dark has-text-left">
@@ -142,7 +144,7 @@ function Project() {
                   </div>
                 </div>
               </div>
-              <div className="column is-one-third">
+              <div className="column is-one-third px-0">
                 <div className="container1">
                   <Image
                     src={sundergutka}
@@ -195,8 +197,8 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div className="columns">
-              <div className="column is-one-third">
+            <div className="columns py-0 my-0">
+              <div className="column is-one-third px-0">
                 <div className="container1">
                   <Image
                     src={sikhiMax}
@@ -245,7 +247,7 @@ function Project() {
                   </div>
                 </div>
               </div>
-              <div className="column is-one-third">
+              <div className="column is-one-third px-0">
                 <div className="container1">
                   <Image
                     width={500}
@@ -300,7 +302,7 @@ function Project() {
         {/* <div class="container has-text-centered">
       <h2 class="is-size-1">RECENT PROJECTS</h2>
       <div class="columns is-centered" >
-        <div class="column is-one-third">
+        <div class="column is-one-third px-0">
           <div class="card">
             <div class="card-image">
               <figure class="image is-2by1">
@@ -317,7 +319,7 @@ function Project() {
             </div>
           </div>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-one-third px-0">
           <div class="card">
             <div class="card-image">
               <figure class="image is-2by1">
@@ -334,7 +336,7 @@ function Project() {
             </div>
           </div>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-one-third px-0">
           <div class="card">
             <div class="card-image">
               <figure class="image is-2by1">
@@ -353,7 +355,7 @@ function Project() {
         </div>
       </div>
       <div class="columns is-centered" >
-        <div class="column is-one-third">
+        <div class="column is-one-third px-0">
           <div class="card">
             <div class="card-image">
               <figure class="image is-2by1">
@@ -370,7 +372,7 @@ function Project() {
             </div>
           </div>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-one-third px-0">
           <div class="card">
             <div class="card-image">
               <figure class="image is-2by1">

@@ -239,7 +239,7 @@ export default function Home() {
                 Contact Us
               </h1>
 
-              <div class="columns is-8 is-variable ">
+              <div class="columns is-8  px-0 ">
                 <div class="column is-two-third has-text-left">
                   <div class="field">
                     <label class="label has-text-light">Name</label>

@@ -20,22 +20,22 @@ const Footer = () => {
       <div className="content has-text-centered has-text-white-ter">
         <div className="has-text-white-ter">
           <div className=" container content has-text-centered">
-            <div class="columns is-centered" >
-              <div class="column is-one-third">
+            <div class="columns is-centered p-0" >
+              <div class="column is-one-third p-0">
                 <div className="contact-div">
-                  <h1 className=" px-6 is-size-4 has-text-weight-bold	has-text-light has-text-left">
+                  <h1 className=" px-5 is-size-4 has-text-weight-bold	has-text-light has-text-left">
                     OUR MISSION
                   </h1>
-                  <p className="is-size-6 has-text-left px-6">
+                  <p className="is-size-6 has-text-left px-5">
                     Khalis provides resources to Sikhs around the world through technology and media. Our goal is to serve and inspire the whole of humanity by spreading the teachings of our Gurus to the masses.
                   </p>
                 </div>
               </div>
-              <div class="column is-one-third">
+              <div class="column is-one-third p-0">
                 <div className="contact-div">
-                  <h1 className="px-6 is-size-4 has-text-weight-bold	has-text-light has-text-left">
+                  <h1 className="px-5 is-size-4 has-text-weight-bold	has-text-light has-text-left">
                     LEGAL                  </h1>
-                  <div className="px-6" style={{
+                  <div className="px-5" style={{
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "flex-start"
@@ -55,10 +55,10 @@ const Footer = () => {
               </div>
               <div class="column is-one-third">
                 <div className="container">
-                  <p className="px-6 is-size-4 has-text-weight-bold	has-text-light has-text-left">
+                  <p className="px-5 is-size-4 has-text-weight-bold	has-text-light has-text-left">
                     Social Media
                   </p>
-                  <div className="is-flex is-align-items-center is-justify-content-flex-start	 px-6">
+                  <div className="is-flex is-align-items-center is-justify-content-flex-start	 px-5">
                     <Link
                       className="py-2 px-2"
                       title="facebook"

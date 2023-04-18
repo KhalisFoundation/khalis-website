@@ -23,11 +23,11 @@ class Navbar extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: "is-active",
-            })
+            navBarActiveClass: "is-active",
+          })
           : this.setState({
-              navBarActiveClass: "",
-            });
+            navBarActiveClass: "",
+          });
       }
     );
   }
@@ -64,13 +64,31 @@ class Navbar extends React.Component {
               data-target="navMenu"
               role="button"
               tabIndex={0}
-              onKeyPress={() => this.toggleHamburger()}
-              onClick={() => this.toggleHamburger()}
+
             >
-              <span />
-              <span />
-              <span />
+              <div style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-around"
+              }}>
+                <button className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+                  onKeyPress={() => this.toggleHamburger()}
+                  onClick={() => this.toggleHamburger()}>
+                  <span />
+                  <span />
+                  <span />
+
+                </button>
+                <Link
+                  href="/donate"
+                  className=" button are-small is-primary  has-text-light"
+                >
+                  Donate
+                </Link>
+              </div>
+
             </div>
+
           </div>
           <div
             id="navMenu "
@@ -220,7 +238,7 @@ class Navbar extends React.Component {
               <div className=" my-2">
                 <Link
                   href="/donate"
-                  className="px-5 py-2 button is-primary is-rounded has-text-light"
+                  className="px-5 py-2 button is-primary  has-text-light"
                 >
                   Donate
                 </Link>
