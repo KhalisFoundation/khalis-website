@@ -16,21 +16,21 @@ const Apps = (props) => {
                         </h1>
 
 
-                        <div class="columns is-centered py-4">
-                            <div class="column is-one-third">
-                                <div class="card ">
-                                    <div class="card-image">
+                        <div className="columns is-centered py-4">
+                            <div className="column is-one-third">
+                                <div className="card ">
+                                    <div className="card-image">
                                         <Image src={prableen} 
                                         width={420} height={300} />
                                     </div>
-                                    <div class="card-content ">
-                                        <div class="media has-background-black radius">
-                                            <div class="media-content">
+                                    <div className="card-content ">
+                                        <div className="media has-background-black radius">
+                                            <div className="media-content">
                                                 <div className="">
-                                                    <p class="is-size-5 py-1 has-text-weight-bold has-text-centered has-text-light">
+                                                    <p className="is-size-5 py-1 has-text-weight-bold has-text-centered has-text-light">
                                                         Prableen Kaur
                                                     </p>
-                                                    <p class="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
+                                                    <p className="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
                                                         Originally from the United Kingdom, Prableen Kaur co-ordinates many of the Khalis projects and helps with much of the day-to-day running.
                                                     </p>
                                                 </div>
@@ -48,7 +48,7 @@ const Apps = (props) => {
                         </h1>
                         <p className="is-size-4 px-5">We wouldn’t be able to do what we do if it wasn’t for our talent. We are thankful to all of our team members past and present, and are always looking for more talent to join us.</p>
                         <p className="has-text-weight-bold">Special thanks to:-</p>
-                        <table class="table is-bordered">
+                        <table className="table is-bordered">
 
                             <tbody>
                                 <tr className="columns">

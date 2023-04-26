@@ -7,15 +7,15 @@ import books from "../components/img/books.svg";
 import apps from "../components/img/apps.svg";
 import sites from "../components/img/sites.svg";
 import BaniDB from "../components/img/banidb-sq.png";
-import myfirst from "../components/img/myfirst1024x660.png";
-import amritkirtanf from "../components/img/amrit-kirtan-f.png";
-import sundergutka from "../components/img/sunder-gutka-f.png";
-import sikhiMax from "../components/img/sttmicon-1.png";
-import baalbodh from "../components/img/baalbodh-f-1.png";
-import learnlareevar from "../components/img/learnlareevar-f.png";
-import Maryada from "../components/img/Maryada.jpg";
-import MyPothi from "../components/img/MyPothi.jpg";
-import rightIcon from "../components/img/right-icon.svg";
+// import myfirst from "../components/img/myfirst1024x660.png";
+// import amritkirtanf from "../components/img/amrit-kirtan-f.png";
+// import sundergutka from "../components/img/sunder-gutka-f.png";
+// import sikhiMax from "../components/img/sttmicon-1.png";
+// import baalbodh from "../components/img/baalbodh-f-1.png";
+// import learnlareevar from "../components/img/learnlareevar-f.png";
+// import Maryada from "../components/img/Maryada.jpg";
+// import MyPothi from "../components/img/MyPothi.jpg";
+// import rightIcon from "../components/img/right-icon.svg";
 import Projects from "../components/Projects";
 
 export default function Home() {
@@ -34,19 +34,17 @@ export default function Home() {
   }, [textArray.length]);
   return (
     <>
-      <SEO title="Homepage" />
+      <SEO />
       <div className="section section--gradient">
         <section className="hero is-info is-fullheight">
           <div className="hero-body">
-            <div className="container has-text-centered">
-              <div className=" ">
-                <h1 className="title ">
+            <div className=" has-text-centered">
+                <h1 className="title m-0 p-0">
                   OVER 20 YEARS OF SHARING SIKHI THROUGH TECHNOLOGY
                 </h1>
-                <Link className="button is-white is-outlined  is-large" href="/#about">
+                <Link className="button is-white is-outlined  is-large mt-6" href="/#about">
                   LEARN MORE
                 </Link>
-              </div>
             </div>
           </div>
         </section>
@@ -232,49 +230,49 @@ export default function Home() {
         </section>
         <Projects />
 
-        <section class="hero has-background-primary " id="contact">
-          <div class="hero-body">
-            <div class="container has-text-centered">
-              <h1 class="is-size-2 py-3 has-text-light has-text-weight-bold">
+        <section className="hero has-background-primary " id="contact">
+          <div className="hero-body">
+            <div className="container has-text-centered">
+              <h1 className="is-size-2 py-3 has-text-light has-text-weight-bold">
                 Contact Us
               </h1>
 
-              <div class="columns is-8  px-0 ">
-                <div class="column is-two-third has-text-left">
-                  <div class="field">
-                    <label class="label has-text-light">Name</label>
-                    <div class="control">
-                      <input class="input is-medium" type="text" />
+              <div className="columns is-8  px-0 ">
+                <div className="column is-two-third has-text-left">
+                  <div className="field">
+                    <label className="label has-text-light">Name</label>
+                    <div className="control">
+                      <input className="input is-medium" type="text" />
                     </div>
                   </div>
-                  <div class="field">
-                    <label class="label has-text-light">Email</label>
-                    <div class="control">
-                      <input class="input is-medium" type="text" />
+                  <div className="field">
+                    <label className="label has-text-light">Email</label>
+                    <div className="control">
+                      <input className="input is-medium" type="text" />
                     </div>
                   </div>
-                  <div class="field">
-                    <label class="label has-text-light">Subject</label>
-                    <div class="control">
-                      <input class="input is-medium" type="text" />
+                  <div className="field">
+                    <label className="label has-text-light">Subject</label>
+                    <div className="control">
+                      <input className="input is-medium" type="text" />
                     </div>
                   </div>
-                  <div class="field">
-                    <label class="label has-text-light">Message</label>
-                    <div class="control">
-                      <textarea class="textarea is-medium"></textarea>
+                  <div className="field">
+                    <label className="label has-text-light">Message</label>
+                    <div className="control">
+                      <textarea className="textarea is-medium"></textarea>
                     </div>
                   </div>
-                  <div class="control">
+                  <div className="control">
                     <button
                       type="submit"
-                      class="button is-dark has-text-weight-medium is-medium is-rounded"
+                      className="button is-dark has-text-weight-medium is-medium is-rounded"
                     >
                       Send Message
                     </button>
                   </div>
                 </div>
-                <div class="column is-one-thirds has-text-left">
+                <div className="column is-one-thirds has-text-left">
                   <div className="contact-div">
                     <h1 className="is-size-4 has-text-weight-bold	has-text-light">
                       We want to hear from you

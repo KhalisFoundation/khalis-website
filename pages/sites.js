@@ -7,7 +7,7 @@ const Apps = () => {
         <section className="hero ">
           <div className="container py-4 px-4">
             <h1 className="is-size-1 pt-5 has-text-weight-bold">SITES</h1>
-            <div class="py-6">
+            <div className="py-6">
               <p>
                 Khalis Foundation runs a number of successful websites that
                 promote Sikhi in various ways.

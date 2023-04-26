@@ -16,8 +16,8 @@ const Apps = (props) => {
             <h1 className="is-size-1 pt-5 has-text-left has-text-weight-bold">
               SUNDAR GUTKA{" "}
             </h1>
-            <div class="columns is-centered py-6">
-              <div class="column is-full">
+            <div className="columns is-centered py-6">
+              <div className="column is-full">
                 <div className=" px-0 pb-0">
                   <p className="has-text-weight-bold">Description</p>
 

@@ -12,8 +12,8 @@ const Privacy = () => {
                     <h1 className="is-size-1 py-4 has-text-weight-bold">
                         PRIVACY POLICY
                     </h1>
-                    <div class="wpb_text_column wpb_content_element ">
-                        <div class="wpb_wrapper">
+                    <div className="wpb_text_column wpb_content_element ">
+                        <div className="wpb_wrapper">
                             <p>The Khalis Foundation and its Affiliates take your privacy seriously. Please read the following to learn more about our privacy policy.</p>
                             <h3 className="is-size-3 has-text-weight-bold">What This Privacy Policy Covers</h3>
                             <p>This policy covers how The Khalis Foundation and its Affiliates treat personal information that The Khalis Foundation and its Affiliates collect and receive, including information related to your past use of The Khalis Foundation and its Affiliates products and services. Personal information is information about you that is personally identifiable like your name, address, email address, or phone number, and that is not otherwise publicly available. This policy does not apply to the practices of companies that The Khalis Foundation and its Affiliates do not own or control, or to people that The Khalis Foundation and its Affiliates do not employ or manage.</p>

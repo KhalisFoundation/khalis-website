@@ -20,20 +20,20 @@ const Apps = () => {
             </h1>
 
 
-            <div class="columns is-centered py-4">
-              <div class="column is-one-third">
-                <div class="card ">
-                  <div class="card-image">
+            <div className="columns is-centered py-4">
+              <div className="column is-one-third">
+                <div className="card ">
+                  <div className="card-image">
                     <Image src={prabhdev} width={420} height={400} />
                   </div>
-                  <div class="card-content ">
-                    <div class="media has-background-black radius">
-                      <div class="media-content">
+                  <div className="card-content ">
+                    <div className="media has-background-black radius">
+                      <div className="media-content">
                         <div className="">
-                          <p class="is-size-5 py-1 has-text-weight-bold has-text-centered has-text-light">
+                          <p className="is-size-5 py-1 has-text-weight-bold has-text-centered has-text-light">
                             Prabhdev Singh
                           </p>
-                          <p class="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
+                          <p className="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
                             Prabhdev Singh has Management and IT degrees and is
                             overseeing many Khalis Foundation functions. He is
                             currently working for a top IT company as a Director
@@ -56,19 +56,19 @@ const Apps = () => {
                   </div>
                 </div>
               </div>
-              <div class="column is-one-third">
-                <div class="card ">
-                  <div class="card-image">
+              <div className="column is-one-third">
+                <div className="card ">
+                  <div className="card-image">
                     <Image src={manjot} width={420} height={400} />
                   </div>
-                  <div class="card-content ">
-                    <div class="media has-background-black radius">
-                      <div class="media-content">
+                  <div className="card-content ">
+                    <div className="media has-background-black radius">
+                      <div className="media-content">
                         <div className="">
-                          <p class="is-size-5 py-1 has-text-weight-bold has-text-centered has-text-light">
+                          <p className="is-size-5 py-1 has-text-weight-bold has-text-centered has-text-light">
                             Manjot Singh
                           </p>
-                          <p class="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
+                          <p className="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
                             Co-Founder of Khalis, Manjot Singh is a Director by
                             profession at a major international software
                             company. His vision and dedication to spreading
@@ -88,19 +88,19 @@ const Apps = () => {
                   </div>
                 </div>
               </div>{" "}
-              <div class="column is-one-third">
-                <div class="card ">
-                  <div class="card-image">
+              <div className="column is-one-third">
+                <div className="card ">
+                  <div className="card-image">
                     <Image src={taranjit}  width={420} height={400}/>
                   </div>
-                  <div class="card-content ">
-                    <div class="media has-background-black radius">
-                      <div class="media-content">
+                  <div className="card-content ">
+                    <div className="media has-background-black radius">
+                      <div className="media-content">
                         <div className="">
-                          <p class="is-size-5 py-1 has-text-weight-bold has-text-centered has-text-light">
+                          <p className="is-size-5 py-1 has-text-weight-bold has-text-centered has-text-light">
                             Taranjit Singh
                           </p>
-                          <p class="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
+                          <p className="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
                             Taranjit Singh is a Software Engineer with a
                             Master&apos;s degree in computer science. He is a
                             proponent for learning and building accessible
@@ -121,20 +121,20 @@ const Apps = () => {
                 </div>
               </div>
             </div>
-            <div class="columns is-centered py-4">
-              <div class="column is-one-third">
-                <div class="card ">
-                  <div class="card-image">
+            <div className="columns is-centered py-4">
+              <div className="column is-one-third">
+                <div className="card ">
+                  <div className="card-image">
                     <Image src={balwinder}  width={420} height={400}/>
                   </div>
-                  <div class="card-content ">
-                    <div class="media has-background-black radius">
-                      <div class="media-content">
+                  <div className="card-content ">
+                    <div className="media has-background-black radius">
+                      <div className="media-content">
                         <div className="">
-                          <p class="is-size-5 py-1 has-text-weight-bold has-text-centered has-text-light">
+                          <p className="is-size-5 py-1 has-text-weight-bold has-text-centered has-text-light">
                             Balwinder Kaur
                           </p>
-                          <p class="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
+                          <p className="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
                             Balwinder Kaur is a passionate technologist, a
                             creative educator, a women-in-tech champion, and a
                             mother. She loves touching the hearts of young and
@@ -158,19 +158,19 @@ const Apps = () => {
                   </div>
                 </div>
               </div>
-              <div class="column is-one-third">
-                <div class="card ">
-                  <div class="card-image">
+              <div className="column is-one-third">
+                <div className="card ">
+                  <div className="card-image">
                     <Image src={aman} width={420} height={400} />
                   </div>
-                  <div class="card-content ">
-                    <div class="media has-background-black radius">
-                      <div class="media-content">
+                  <div className="card-content ">
+                    <div className="media has-background-black radius">
+                      <div className="media-content">
                         <div className="">
-                          <p class="is-size-5 py-1 has-text-weight-bold has-text-centered has-text-light">
+                          <p className="is-size-5 py-1 has-text-weight-bold has-text-centered has-text-light">
                             Aman Singh
                           </p>
-                          <p class="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
+                          <p className="px-4 subtitle py-3 is-6 has-text-light has-text-centered	has-text-weight-bold">
                             Aman Singh is a senior software specialist by
                             profession and provides insights into marketing and
                             design as well as implementing technology for the

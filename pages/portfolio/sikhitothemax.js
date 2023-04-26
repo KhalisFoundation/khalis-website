@@ -26,10 +26,10 @@ const Apps = () => {
             <p className="is-size-5 py-4 has-text-left has-text-weight-bold">
               The world’s most popular Gurbani presentation software.
             </p>
-            <div class="columns is-centered py-3">
-              <div class="column is-one-third">
-                <div class="card ">
-                  <div class="card-image">
+            <div className="columns is-centered py-3">
+              <div className="column is-one-third">
+                <div className="card ">
+                  <div className="card-image">
                     <Image src={
                       sikhi1
                     } width={500} height={500} />
@@ -37,13 +37,13 @@ const Apps = () => {
                       Presenter mode
                     </p>
                   </div>
-                  <div class="card-image">
+                  <div className="card-image">
                     <Image src={sikhi2} width={500} height={500} />
                     <p className="is-size-5 py-6 has-text-centered has-text-weight-bold">
                       Powerful search
                     </p>
                   </div>
-                  <div class="card-image">
+                  <div className="card-image">
                     <Image src={sikhi3} width={500} height={500} />
                     <p className="is-size-5 py-6 has-text-centered has-text-weight-bold">
                       Beautiful themes
@@ -51,7 +51,7 @@ const Apps = () => {
                   </div>
                 </div>
               </div>
-              <div class="column is-two-third">
+              <div className="column is-two-third">
                 <div className=" px-0 pb-0">
                   <div
                     // style="vertical-align: text-top; width: 70.9163%; height: 380px; border: 0px !important;"

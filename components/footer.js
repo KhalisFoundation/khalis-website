@@ -20,8 +20,8 @@ const Footer = () => {
       <div className="content has-text-centered has-text-white-ter">
         <div className="has-text-white-ter">
           <div className=" container content has-text-centered">
-            <div class="columns is-centered p-0" >
-              <div class="column is-one-third p-0">
+            <div className="columns is-centered p-0" >
+              <div className="column is-one-third p-0">
                 <div className="contact-div">
                   <h1 className=" px-5 is-size-4 has-text-weight-bold	has-text-light has-text-left">
                     OUR MISSION
@@ -31,7 +31,7 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              <div class="column is-one-third p-0">
+              <div className="column is-one-third p-0">
                 <div className="contact-div">
                   <h1 className="px-5 is-size-4 has-text-weight-bold	has-text-light has-text-left">
                     LEGAL                  </h1>
@@ -53,7 +53,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div class="column is-one-third">
+              <div className="column is-one-third">
                 <div className="container">
                   <p className="px-5 is-size-4 has-text-weight-bold	has-text-light has-text-left">
                     Social Media

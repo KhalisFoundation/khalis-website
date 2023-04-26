@@ -22,19 +22,19 @@ const Apps = () => {
             <p className="is-size-4 py-6">
               Khalis Foundation works on a number of Sikhi and educational apps.
             </p>
-            <div class="columns is-centered">
-              <div class="column is-one-forth">
-                <div class="card">
-                  <div class="card-image">
+            <div className="columns is-centered">
+              <div className="column is-one-forth">
+                <div className="card">
+                  <div className="card-image">
                     <Image src={myfirst} width={420} height={250}/>
                   </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content px-2 py-2">
-                        <p class="is-size-5 is-4 has-text-weight-bold ">
+                  <div className="card-content">
+                    <div className="media">
+                      <div className="media-content px-2 py-2">
+                        <p className="is-size-5 is-4 has-text-weight-bold ">
                           My First Gutka
                         </p>
-                        <p class="subtitle is-6">
+                        <p className="subtitle is-6">
                           This app uses beautiful, vibrant colors to display
                           Gurbani for kids and helps them learn how to read and
                           sing their Nitnem with built-in musical versions of
@@ -51,18 +51,18 @@ const Apps = () => {
                   </div>
                 </div>
               </div>
-              <div class="column is-one-forth">
-                <div class="card">
-                  <div class="card-image">
+              <div className="column is-one-forth">
+                <div className="card">
+                  <div className="card-image">
                     <Image src={amritkirtanf} width={420} height={250} />
                   </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content px-2 py-2">
-                        <p class="is-size-5 is-4 has-text-weight-bold">
+                  <div className="card-content">
+                    <div className="media">
+                      <div className="media-content px-2 py-2">
+                        <p className="is-size-5 is-4 has-text-weight-bold">
                           Amrit Keertan
                         </p>
-                        <p class="subtitle is-6">
+                        <p className="subtitle is-6">
                           Popular with professional Sikh Kirtani around the
                           world, the Amrit Keertan is a collection of Shabads
                           from Sri Guru Granth Sahib Jee, and other Sikh
@@ -79,18 +79,18 @@ const Apps = () => {
                   </div>
                 </div>
               </div>
-              <div class="column is-one-forth">
-                <div class="card">
-                  <div class="card-image">
+              <div className="column is-one-forth">
+                <div className="card">
+                  <div className="card-image">
                     <Image src={sundergutka} width={420} height={250} />
                   </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content px-2 py-2">
-                        <p class="is-size-5 is-4 has-text-weight-bold">
+                  <div className="card-content">
+                    <div className="media">
+                      <div className="media-content px-2 py-2">
+                        <p className="is-size-5 is-4 has-text-weight-bold">
                           Sundar Gutka{" "}
                         </p>
-                        <p class="subtitle is-6">
+                        <p className="subtitle is-6">
                           Khalsa Sundar Gutka contains the daily and extended
                           Sikh Prayers also known as Nitnem.
                         </p>
@@ -105,18 +105,18 @@ const Apps = () => {
                   </div>
                 </div>
               </div>
-              <div class="column is-one-forth">
-                <div class="card">
-                  <div class="card-image">
+              <div className="column is-one-forth">
+                <div className="card">
+                  <div className="card-image">
                     <Image src={sikhiMax} width={420} height={250} />
                   </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content px-2 py-2">
-                        <p class="is-size-5 is-4 has-text-weight-bold">
+                  <div className="card-content">
+                    <div className="media">
+                      <div className="media-content px-2 py-2">
+                        <p className="is-size-5 is-4 has-text-weight-bold">
                           SikhiToTheMax
                         </p>
-                        <p class="subtitle is-6">
+                        <p className="subtitle is-6">
                           SikhiToTheMax Everywhere is a revolutionary new
                           Gurbani presenter app that changes how Gurbani is
                           experienced.
@@ -133,19 +133,19 @@ const Apps = () => {
                 </div>
               </div>
             </div>
-            <div class="columns is-centered">
-              <div class="column is-one-forth">
-                <div class="card">
-                  <div class="card-image">
+            <div className="columns is-centered">
+              <div className="column is-one-forth">
+                <div className="card">
+                  <div className="card-image">
                     <Image src={baalbodh} width={420} height={250} />
                   </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content px-2 py-2">
-                        <p class="is-size-5 is-4 has-text-weight-bold">
+                  <div className="card-content">
+                    <div className="media">
+                      <div className="media-content px-2 py-2">
+                        <p className="is-size-5 is-4 has-text-weight-bold">
                           Baal Bodh
                         </p>
-                        <p class="subtitle is-6">
+                        <p className="subtitle is-6">
                           Baal Bodh teaches Punjabi to children using simple
                           flash cards with great artwork and sound.
                         </p>
@@ -160,18 +160,18 @@ const Apps = () => {
                   </div>
                 </div>
               </div>
-              <div class="column is-one-forth">
-                <div class="card">
-                  <div class="card-image">
+              <div className="column is-one-forth">
+                <div className="card">
+                  <div className="card-image">
                     <Image src={learnlareevar} width={420} height={250} />
                   </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content px-2 py-2">
-                        <p class="is-size-5 is-4 has-text-weight-bold">
+                  <div className="card-content">
+                    <div className="media">
+                      <div className="media-content px-2 py-2">
+                        <p className="is-size-5 is-4 has-text-weight-bold">
                           Learn Larivaar
                         </p>
-                        <p class="subtitle is-6">
+                        <p className="subtitle is-6">
                           When reading from Dhan Sri Guru Granth Sahib Ji
                           Maharaj in Larivaar Saroop, it can be challenging to
                           know where the Shabads are separated. With Learn
@@ -189,18 +189,18 @@ const Apps = () => {
                   </div>
                 </div>
               </div>
-              <div class="column is-one-forth">
-                <div class="card">
-                  <div class="card-image">
+              <div className="column is-one-forth">
+                <div className="card">
+                  <div className="card-image">
                     <Image src={Maryada}  width={420} height={200}/>
                   </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content px-2 py-2">
-                        <p class="is-size-5 is-4 has-text-weight-bold">
+                  <div className="card-content">
+                    <div className="media">
+                      <div className="media-content px-2 py-2">
+                        <p className="is-size-5 is-4 has-text-weight-bold">
                           Maryada
                         </p>
-                        <p class="subtitle is-6">
+                        <p className="subtitle is-6">
                           The Sikh Rehat Maryada is a code of conduct for Sikhs.
                           The app has both a gurmukhi (punjabi) and English
                           version of the most current rehat maryada.
@@ -216,18 +216,18 @@ const Apps = () => {
                   </div>
                 </div>
               </div>
-              <div class="column is-one-forth">
-                <div class="card">
-                  <div class="card-image">
+              <div className="column is-one-forth">
+                <div className="card">
+                  <div className="card-image">
                     <Image src={MyPothi} width={420} height={200}  />
                   </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content px-2 py-2">
-                        <p class="is-size-5 is-4 has-text-weight-bold">
+                  <div className="card-content">
+                    <div className="media">
+                      <div className="media-content px-2 py-2">
+                        <p className="is-size-5 is-4 has-text-weight-bold">
                           MyPothi
                         </p>
-                        <p class="subtitle is-6">
+                        <p className="subtitle is-6">
                           MyPothi allows you to log on and create your own pothi
                           and arrange gurbani as you see fit–whether for daily
                           prayer, keertan or discussions. You create your pages

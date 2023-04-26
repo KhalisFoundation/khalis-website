@@ -39,12 +39,12 @@ const Apps = () => {
                             <input type="hidden" name="bn" value="WPPlugin_SP" />
                             <input type="hidden" name="return" value="https://khalisfoundation.org/donation-confirmation/" />
                             <input type="hidden" name="cancel_return" value="" />
-                            <input class="wpedon_paypalbuttonimage" type="image" src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_cc_147x47.png" border="0" name="submit" alt="Make your payments with PayPal. It is free, secure, effective."
+                            <input className="wpedon_paypalbuttonimage" type="image" src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_cc_147x47.png" border="0" name="submit" alt="Make your payments with PayPal. It is free, secure, effective."
                             //  style="border: none;"
                               /><noscript><img alt='' border='0'
                             //    style='border:none;display:none;' 
                                src='https://www.paypal.com/EN_US/i/scr/pixel.gif' width='1' height='1' /></noscript>
-                            <img class="lazyload" alt="" border="0"
+                            <img className="lazyload" alt="" border="0"
                             //  style="border:none;display:none;" 
                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201%201%22%3E%3C/svg%3E" data-src="https://www.paypal.com/EN_US/i/scr/pixel.gif" width="1" height="1" data-opt-lazy-loaded="false" />
                             <input type="hidden" name="87f57ddc529abbe88822777ebb376162" value="8c5bb24faab000254e32882405367c64" />

@@ -17,15 +17,15 @@ const Apps = () => {
             <h1 className="is-size-1 pt-5 has-text-left has-text-weight-bold">
               MY FIRST GUTKA
             </h1>
-            <div class="columns is-centered py-6">
-              <div class="column is-half">
-                <div class="card ">
-                  <div class="card-image">
+            <div className="columns is-centered py-6">
+              <div className="column is-half">
+                <div className="card ">
+                  <div className="card-image">
                     <Image src={myFirstGutka}/>
                   </div>
                 </div>
               </div>
-              <div class="column is-half">
+              <div className="column is-half">
                 <div className=" px-0 pb-0">
                   <p>
                     The first ever Gutka for kids is now available on Android
@@ -38,7 +38,7 @@ const Apps = () => {
                     their daily prayers.
                   </p>
                   <p className="has-text-weight-bold">Features include:-</p>
-                  <ol className="px-2">
+                  <ol className="px-4">
                     <li className="list-item">
                       Sing-along feature to help kids learn and engage with
                       Nitnem.

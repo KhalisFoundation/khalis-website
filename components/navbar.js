@@ -80,11 +80,12 @@ class Navbar extends React.Component {
 
                 </button>
                 <Link
-                  href="/donate"
-                  className=" button are-small is-primary  has-text-light"
-                >
-                  Donate
-                </Link>
+                className="navbar-item is-family-secondary nav-item has-text-light p-0"
+                href="/donate"
+              >
+                <p className="btn is-primary  ">  Donate</p>
+              
+              </Link>
               </div>
 
             </div>
@@ -125,18 +126,20 @@ class Navbar extends React.Component {
               >
                 CONTACT
               </Link>
-              <div class="navbar-item has-dropdown is-hoverable ">
-                <p class="navbar-link is-family-secondary has-text-light has-text-weight-bold">
+              <div className="navbar-item has-dropdown is-hoverable " style={{
+                fontSize: "14px",
+              }}>
+                <p className="navbar-link is-family-secondary has-text-light has-text-weight-bold">
                   PROJECTS
                 </p>
 
-                <div class="navbar-dropdown has-background-black">
+                <div className="navbar-dropdown has-background-black">
                   <Link
                     href="/apps"
-                    class="navbar-item is-family-secondary   "
+                    className="navbar-item is-family-secondary   "
                     style={{
                       color: "white",
-                      fontSize: "18px",
+                      fontSize: "14px",
                       fontWeight: "700",
                       paddingTop: "0.4rem !important",
                     }}
@@ -145,10 +148,10 @@ class Navbar extends React.Component {
                   </Link>
                   <Link
                     href="/sites"
-                    class="navbar-item is-family-secondary   "
+                    className="navbar-item is-family-secondary   "
                     style={{
                       color: "white",
-                      fontSize: "18px",
+                      fontSize: "14px",
                       fontWeight: "700",
                       paddingTop: "0.4rem !important",
                     }}
@@ -157,10 +160,10 @@ class Navbar extends React.Component {
                   </Link>
                   <Link
                     href="/course-catalog"
-                    class="navbar-item is-family-secondary   "
+                    className="navbar-item is-family-secondary   "
                     style={{
                       color: "white",
-                      fontSize: "18px",
+                      fontSize: "14px",
                       fontWeight: "700",
                       paddingTop: "0.4rem !important",
                     }}
@@ -176,18 +179,20 @@ class Navbar extends React.Component {
               >
                 SHOP
               </Link>
-              <div class="navbar-item has-dropdown is-hoverable ">
-                <p class="navbar-link is-family-secondary has-text-light has-text-weight-bold">
+              <div className="navbar-item has-dropdown is-hoverable " style={{
+                fontSize: "14px",
+              }}>
+                <p className="navbar-link is-family-secondary has-text-light has-text-weight-bold">
                   FOUNDATION
                 </p>
 
-                <div class="navbar-dropdown has-background-black">
+                <div className="navbar-dropdown has-background-black">
                   <Link
                     href="/news"
-                    class="navbar-item is-family-secondary   "
+                    className="navbar-item is-family-secondary   "
                     style={{
                       color: "white",
-                      fontSize: "18px",
+                      fontSize: "14px",
                       fontWeight: "700",
                       paddingTop: "0.4rem !important",
                     }}
@@ -196,10 +201,10 @@ class Navbar extends React.Component {
                   </Link>
                   <Link
                     href="/board-of-directors"
-                    class="navbar-item is-family-secondary   "
+                    className="navbar-item is-family-secondary   "
                     style={{
                       color: "white",
-                      fontSize: "18px",
+                      fontSize: "14px",
                       fontWeight: "700",
                       paddingTop: "0.2rem",
                     }}
@@ -208,10 +213,10 @@ class Navbar extends React.Component {
                   </Link>
                   <Link
                     href="/staff-volunteers"
-                    class="navbar-item is-family-secondary   "
+                    className="navbar-item is-family-secondary   "
                     style={{
                       color: "white",
-                      fontSize: "18px",
+                      fontSize: "14px",
                       fontWeight: "700",
                       paddingTop: "0.2rem",
                     }}
@@ -221,10 +226,10 @@ class Navbar extends React.Component {
 
                   <Link
                     href="/sponsors-and-thanks"
-                    class="navbar-item is-family-secondary   "
+                    className="navbar-item is-family-secondary   "
                     style={{
                       color: "white",
-                      fontSize: "18px",
+                      fontSize: "14px",
                       fontWeight: "700",
                       paddingTop: "0.2rem",
                     }}
@@ -233,17 +238,18 @@ class Navbar extends React.Component {
                   </Link>
                 </div>
               </div>
+              <Link
+                className="navbar-item is-family-secondary nav-item has-text-light"
+                href="/donate"
+              >
+                <p className="button is-primary  " style={{
+                  borderRadius:"0px"
+                }}>  Donate</p>
+              
+              </Link>
+          
             </div>
-            <div className="navbar-end has-text-centered ">
-              <div className=" my-2">
-                <Link
-                  href="/donate"
-                  className="px-5 py-2 button is-primary  has-text-light"
-                >
-                  Donate
-                </Link>
-              </div>
-            </div>
+          
           </div>
         </div>
         <span />

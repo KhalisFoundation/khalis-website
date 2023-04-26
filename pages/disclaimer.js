@@ -12,7 +12,7 @@ const Disclaimer = () => {
                     <h1 className="is-size-1 py-4 has-text-weight-bold">
                         DISCLAIMER
                     </h1>
-                    <div class="">
+                    <div >
                         <p>THE INFORMATION IN THIS WEB SITE IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. THE KHALIS FOUNDATION AND ITS AFFILIATES SHALL NOT BE RESPONSIBLE FOR ANY ERRORS, OMISSIONS OR TECHNICAL INACCURACIES IN THIS WEB SITE.</p>
                         <p>This Web site is primarily for the benefit and use of the worldwide Sangat and the Panth as a whole. The Khalis Foundation and its Affiliates are constantly improving its products, services and websites and reserves the right to make such improvements or changes to this Web site, the materials, products, or services posted in this Web site without prior notice as it deems necessary.</p>
                         <p>As a convenience to you, The Khalis Foundation and its Affiliates provide links to Web sites operated by others. The Khalis Foundation and its Affiliates make no representations about Web sites accessed from this Web site which are not maintained, controlled or created by The Khalis Foundation or its Affiliates and does not endorse any linked Web sites or the information appearing thereon. Links do not imply that The Khalis Foundation or its Affiliates endorse, are affiliated with or associated with such linked Web sites.</p>

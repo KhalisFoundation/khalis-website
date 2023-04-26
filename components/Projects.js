@@ -27,10 +27,10 @@ function Project() {
 
   return (
     <>
-      <section class="section py-2" id="recent">
+      <section className="section py-2" id="recent">
         <div className="container px-4 h-25">
           <div className="has-text-centered">
-            <h2 class="is-size-2 py-3 has-text-dark has-text-weight-bold">
+            <h2 className="is-size-2 py-3 has-text-dark has-text-weight-bold">
               RECENT PROJECTS
             </h2>
 
@@ -41,9 +41,8 @@ function Project() {
                     src={myfirst}
                     alt="Avatar"
                     className="logo text"
-                    width={600}
+                    width={500}
                     height={500}
-                    // style={{ width: "100%" }}
                   />
                   <button
                     className="middle"
@@ -51,7 +50,10 @@ function Project() {
                   >
                     <div className="middlemiddle">
                       <div className="has-text-centered ">
-                        <Image src={rightIcon} width={50} height={50} />
+                        <Image src={rightIcon} width={80} height={80} style={{
+                          background:"#fff" ,
+                          borderRadius:"50%"
+                        }} />
                         <p className="is-size-3 has-text-weight-bold has-text-light">
                           My First Gutka
                         </p>
@@ -60,16 +62,16 @@ function Project() {
                   </button>
                   <div className={`modal ${firstGutka ? "is-active" : ""}`}>
                     <div
-                      class="modal-background"
+                      className="modal-background"
                       onClick={closeFirstGutka}
                     ></div>
-                    <div class="modal-content has-background-light">
+                    <div className="modal-content has-background-light">
                       <Image
                         src={myfirst}
                         alt="Avatar"
                         className="logo text p-4"
-                        width={800}
-                        height={600}
+                        width={500}
+                        height={500}
                         // style={{ width: "100%" }}
                       />
                       <p className="is-size-3 px-6  has-text-dark has-text-left">
@@ -105,7 +107,10 @@ function Project() {
                   >
                     <div className="middlemiddle">
                       <div className="text-center ">
-                        <Image src={rightIcon} width={50} height={50} />
+                        <Image src={rightIcon} width={80} height={80} style={{
+                          background:"#fff" ,
+                          borderRadius:"50%"
+                        }} />
                         <p className="is-size-3 has-text-weight-bold has-text-light ">
                           Amrit Keertan
                         </p>
@@ -114,10 +119,10 @@ function Project() {
                   </button>
                   <div className={`modal ${armitkeertan ? "is-active" : ""}`}>
                     <div
-                      class="modal-background"
+                      className="modal-background"
                       onClick={closearmitkeertan}
                     ></div>
-                    <div class="modal-content has-background-light">
+                    <div className="modal-content has-background-light">
                       <Image
                         src={amritkirtanf}
                         alt="Avatar"
@@ -159,7 +164,10 @@ function Project() {
                   >
                     <div className="middlemiddle">
                       <div className="text-center ">
-                        <Image src={rightIcon} width={50} height={50} />
+                        <Image src={rightIcon} width={80} height={80} style={{
+                          background:"#fff" ,
+                          borderRadius:"50%"
+                        }} />
                         <p className="is-size-3 has-text-weight-bold has-text-light">
                           Sundar Gutka
                         </p>
@@ -168,10 +176,10 @@ function Project() {
                   </button>
                   <div className={`modal ${sundarGutka ? "is-active" : ""}`}>
                     <div
-                      class="modal-background"
+                      className="modal-background"
                       onClick={closesundarGutka}
                     ></div>
-                    <div class="modal-content has-background-light">
+                    <div className="modal-content has-background-light">
                       <Image
                         src={sundergutka}
                         alt="Avatar"
@@ -210,7 +218,10 @@ function Project() {
                   <button className="middle" onClick={() => setsikhiMax(true)}>
                     <div className="middlemiddle">
                       <div className="text-center ">
-                        <Image src={rightIcon} width={50} height={50} />
+                        <Image src={rightIcon} width={80} height={80} style={{
+                          background:"#fff" ,
+                          borderRadius:"50%"
+                        }} />
                         <p className="is-size-3 has-text-weight-bold has-text-light">
                           SikhiToTheMax
                         </p>
@@ -219,10 +230,10 @@ function Project() {
                   </button>
                   <div className={`modal ${SikhiMax ? "is-active" : ""}`}>
                     <div
-                      class="modal-background"
+                      className="modal-background"
                       onClick={closeFsikhiMax}
                     ></div>
-                    <div class="modal-content has-background-light">
+                    <div className="modal-content has-background-light">
                       <Image
                         src={sikhiMax}
                         alt="Avatar"
@@ -259,7 +270,10 @@ function Project() {
                   <button className="middle" onClick={() => setbaalbodh(true)}>
                     <div className="middlemiddle">
                       <div className="text-center ">
-                        <Image src={rightIcon} width={50} height={50} />
+                        <Image src={rightIcon} width={80} height={80} style={{
+                          background:"#fff" ,
+                          borderRadius:"50%"
+                        }} />
                         <p className="is-size-3 has-text-weight-bold has-text-light">
                           Baal Bodh
                         </p>
@@ -268,10 +282,10 @@ function Project() {
                   </button>
                   <div className={`modal ${Baalbodh ? "is-active" : ""}`}>
                     <div
-                      class="modal-background"
+                      className="modal-background"
                       onClick={closebaalbodh}
                     ></div>
-                    <div class="modal-content has-background-light">
+                    <div className="modal-content has-background-light">
                       <Image
                         src={baalbodh}
                         alt="Avatar"
@@ -299,91 +313,91 @@ function Project() {
             </div>
           </div>
         </div>
-        {/* <div class="container has-text-centered">
-      <h2 class="is-size-1">RECENT PROJECTS</h2>
-      <div class="columns is-centered" >
-        <div class="column is-one-third px-0">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-2by1">
+        {/* <div className="container has-text-centered">
+      <h2 className="is-size-1">RECENT PROJECTS</h2>
+      <div className="columns is-centered" >
+        <div className="column is-one-third px-0">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-2by1">
                 <img src="https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Placeholder image" />
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">John Smith</p>
-                  <p class="subtitle is-6">@johnsmith</p>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4">John Smith</p>
+                  <p className="subtitle is-6">@johnsmith</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="column is-one-third px-0">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-2by1">
+        <div className="column is-one-third px-0">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-2by1">
                 <img src="https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Placeholder image" />
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">John Smith</p>
-                  <p class="subtitle is-6">@johnsmith</p>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4">John Smith</p>
+                  <p className="subtitle is-6">@johnsmith</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="column is-one-third px-0">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-2by1">
+        <div className="column is-one-third px-0">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-2by1">
                 <img src="https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Placeholder image" />
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">John Smith</p>
-                  <p class="subtitle is-6">@johnsmith</p>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4">John Smith</p>
+                  <p className="subtitle is-6">@johnsmith</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="columns is-centered" >
-        <div class="column is-one-third px-0">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-2by1">
+      <div className="columns is-centered" >
+        <div className="column is-one-third px-0">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-2by1">
                 <img src="https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Placeholder image" />
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">John Smith</p>
-                  <p class="subtitle is-6">@johnsmith</p>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4">John Smith</p>
+                  <p className="subtitle is-6">@johnsmith</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="column is-one-third px-0">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-2by1">
+        <div className="column is-one-third px-0">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-2by1">
                 <img src="https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Placeholder image" />
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">John Smith</p>
-                  <p class="subtitle is-6">@johnsmith</p>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4">John Smith</p>
+                  <p className="subtitle is-6">@johnsmith</p>
                 </div>
               </div>
             </div>
