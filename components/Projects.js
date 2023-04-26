@@ -41,8 +41,7 @@ function Project() {
                     src={myfirst}
                     alt="Avatar"
                     className="logo text"
-                    width={500}
-                    height={500}
+                    fill="true"
                   />
                   <button
                     className="middle"
@@ -51,8 +50,8 @@ function Project() {
                     <div className="middlemiddle">
                       <div className="has-text-centered ">
                         <Image src={rightIcon} width={80} height={80} style={{
-                          background:"#fff" ,
-                          borderRadius:"50%"
+                          background: "#fff",
+                          borderRadius: "50%"
                         }} />
                         <p className="is-size-3 has-text-weight-bold has-text-light">
                           My First Gutka
@@ -70,9 +69,9 @@ function Project() {
                         src={myfirst}
                         alt="Avatar"
                         className="logo text p-4"
-                        width={500}
-                        height={500}
-                        // style={{ width: "100%" }}
+                        width={800}
+                        height={600}
+                      // style={{ width: "100%" }}
                       />
                       <p className="is-size-3 px-6  has-text-dark has-text-left">
                         My First Gutka
@@ -98,8 +97,7 @@ function Project() {
                     src={amritkirtanf}
                     alt="Avatar"
                     className="logo text"
-                    width={500}
-                    height={500}
+                    fill="true"
                   />
                   <button
                     className="middle"
@@ -108,8 +106,8 @@ function Project() {
                     <div className="middlemiddle">
                       <div className="text-center ">
                         <Image src={rightIcon} width={80} height={80} style={{
-                          background:"#fff" ,
-                          borderRadius:"50%"
+                          background: "#fff",
+                          borderRadius: "50%"
                         }} />
                         <p className="is-size-3 has-text-weight-bold has-text-light ">
                           Amrit Keertan
@@ -127,9 +125,9 @@ function Project() {
                         src={amritkirtanf}
                         alt="Avatar"
                         className="logo text p-4"
-                        width={500}
-                        height={500}
-                        // style={{ width: "100%" }}
+                        width={800}
+                        height={600}
+                      // style={{ width: "100%" }}
                       />
                       <p className="is-size-3 px-6  has-text-dark has-text-left">
                         Amrit Keertan
@@ -153,8 +151,7 @@ function Project() {
                 <div className="container1">
                   <Image
                     src={sundergutka}
-                    height={500}
-                    width={500}
+                    fill="true"
                     alt="Avatar"
                     className="logo text"
                   />
@@ -165,8 +162,8 @@ function Project() {
                     <div className="middlemiddle">
                       <div className="text-center ">
                         <Image src={rightIcon} width={80} height={80} style={{
-                          background:"#fff" ,
-                          borderRadius:"50%"
+                          background: "#fff",
+                          borderRadius: "50%"
                         }} />
                         <p className="is-size-3 has-text-weight-bold has-text-light">
                           Sundar Gutka
@@ -186,7 +183,7 @@ function Project() {
                         className="logo text p-4"
                         width={800}
                         height={600}
-                        // style={{ width: "100%" }}
+                      // style={{ width: "100%" }}
                       />
                       <p className="is-size-3 px-6  has-text-dark has-text-left">
                         Sundar Gutka
@@ -210,8 +207,7 @@ function Project() {
                 <div className="container1">
                   <Image
                     src={sikhiMax}
-                    width={500}
-                    height={500}
+                    fill="true"
                     alt="Avatar"
                     className="logo text"
                   />
@@ -219,8 +215,8 @@ function Project() {
                     <div className="middlemiddle">
                       <div className="text-center ">
                         <Image src={rightIcon} width={80} height={80} style={{
-                          background:"#fff" ,
-                          borderRadius:"50%"
+                          background: "#fff",
+                          borderRadius: "50%"
                         }} />
                         <p className="is-size-3 has-text-weight-bold has-text-light">
                           SikhiToTheMax
@@ -240,7 +236,7 @@ function Project() {
                         className="logo text p-4"
                         width={800}
                         height={600}
-                        // style={{ width: "100%" }}
+                      // style={{ width: "100%" }}
                       />
                       <p className="is-size-3 px-6  has-text-dark has-text-left">
                         SikhiToTheMax{" "}
@@ -261,8 +257,7 @@ function Project() {
               <div className="column is-one-third px-0">
                 <div className="container1">
                   <Image
-                    width={500}
-                    height={500}
+                 fill="true"
                     src={baalbodh}
                     alt="Avatar"
                     className="logo text"
@@ -271,8 +266,8 @@ function Project() {
                     <div className="middlemiddle">
                       <div className="text-center ">
                         <Image src={rightIcon} width={80} height={80} style={{
-                          background:"#fff" ,
-                          borderRadius:"50%"
+                          background: "#fff",
+                          borderRadius: "50%"
                         }} />
                         <p className="is-size-3 has-text-weight-bold has-text-light">
                           Baal Bodh
@@ -292,7 +287,7 @@ function Project() {
                         className="logo text p-4"
                         width={800}
                         height={600}
-                        // style={{ width: "100%" }}
+                      // style={{ width: "100%" }}
                       />
                       <p className="is-size-3 px-6  has-text-dark has-text-left">
                         Baal Bodh
